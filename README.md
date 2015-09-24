@@ -3,7 +3,7 @@
 [-Contact](http://valeriebordeleau.ca/#projects)
 
 # Valerie Bordeleau
-## Ottawa, ON
+### Ottawa, ON
 
 Hey, there! Creating universally accessible media for all is what drives me.  In an instant, strong imagery can communicate an idea that can surpasse language barriers and illiteracy. 
 
