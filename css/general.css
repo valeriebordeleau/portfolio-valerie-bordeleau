@@ -1,15 +1,101 @@
-   
-<!-- 
+/* Accessibilty */
+
+a:focus {
+    outline:3px solid #ACC6C9;  
+}
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+	position: absolute;
+	top: -3em;
+    z-index: 100;
+}
+
+.skip-links a:focus {
+	position: absolute;
+	top: 0em;
+}
+
+/* Nav Styles */
+
+.nav-t-all {
+    display:block;
+    text-decoration: none;
+    color: #58595B;
+    background-color: none;
+    list-style-type: none;
+}
+
+.nav-t-all:hover {
+    color: #BCBEC0;
+}
+
+.nav-t {
+    list-style: none;
+    display:;
+}
+
+.nav-b-all {
+    display:block;
+    text-decoration: none;
+    color: #58595B;
+    background-color: none;
+    list-style-type: none;
+}
+
+.nav-b-all:hover {
+    color: #BCBEC0;
+}
+
+.nav-b {
+    list-style: none;
+    display:block;
+}
+
+/* Social Media styles */
+.social {
+    max-width: 90px;
+    text-align: center;
+    display: inline-block;
+}
+
+.social-push {
+    padding-left: calc(50% - 180px);
+}
+
+.st1 {
+    fill: #58595B;
+    -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
+}
+
+.st1:hover {
+    fill: #BCBEC0;
+}
+
+/* colour blocking */
+
+.cb-footer {
+    background-color:white; 
+    color: #58595B;
+}
+
+/*
 white
 light grey = #BCBEC0
 dark grey = #58595B
 black = #000000
---->
+*/
 
-<!-- 
+/*
 Brand Colours
 white
 pale blue = #ACC6C9
 dark grey blue = #333E48
 black = #232222
---->
+*/
