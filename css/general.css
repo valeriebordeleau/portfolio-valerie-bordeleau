@@ -23,8 +23,7 @@ a:focus {
 
 /* Nav Styles */
 
-.nav-t-all {
-    display:block;
+.nav-t-item {
     text-decoration: none;
     color: #58595B;
     background-color: none;
@@ -33,7 +32,7 @@ a:focus {
     transition: all 200ms ease-out;
 }
 
-.nav-t-all:hover {
+.nav-t-item:hover {
     color: #BCBEC0;
 }
 
@@ -98,6 +97,20 @@ a:focus {
 .cb-footer {
     background-color:white; 
     color: #58595B;
+}
+
+/*small*/@media only screen and (min-width: 25em) {
+    
+
+}
+
+/*medium*/@media only screen and (min-width: 38em) {
+      
+
+}
+
+/*large*/@media only screen and (min-width: 60em) {
+  
 }
 
 /*
