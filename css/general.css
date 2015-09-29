@@ -23,6 +23,9 @@ a:focus {
 
 /* Nav Styles */
 .nav-bar {
+    background-color:rgba(188, 190, 192, 0.5);
+    min-height: 65px;
+    box-shadow: 20px 20px 20px rgba(35, 31, 32, 0.5);
 }
 
 .nav-t-item {
