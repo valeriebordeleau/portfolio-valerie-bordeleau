@@ -22,6 +22,8 @@ a:focus {
 }
 
 /* Nav Styles */
+.nav-bar {
+}
 
 .nav-t-item {
     text-decoration: none;
@@ -39,25 +41,6 @@ a:focus {
 .nav-t {
     list-style: none;
     display:;
-}
-
-.nav-b-all {
-    display:block;
-    text-decoration: none;
-    color: #58595B;
-    background-color: none;
-    list-style-type: none;
-     -webkit-transition: all 200ms ease-out; 
-    transition: all 200ms ease-out;
-}
-
-.nav-b-all:hover {
-    color: #BCBEC0;
-}
-
-.nav-b {
-    list-style: none;
-    display:block;
 }
 
 /* Social Media styles */
