@@ -26,16 +26,21 @@
         <li><a href="#main">Skip To Main Content</a></li>
     </ul>    
   
-<!-- No Toggle, Top Nav -->    
+<!-- No Toggle, Top Nav, Role of Nav is on bottom nav-->    
+<header>
     <div class="grid">
-        <nav id="nav" role="navigation">
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
             <ul class="nav-t nav gutter">
-                <li class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 island"><a href="#intro" class="nav-t-all">Introduction</a></li>
-                <li class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 island"><a href="#portfolio" class="nav-t-all">Portfolio</a></li>
-                <li class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 island"><a href="#contact" class="nav-t-all"> Contact</a></li>
-                    </ul>
-                </nav>
-            </div><!-- nav grid -->
+                <li class="island"><a href="#intro" class="nav-t-all">Introduction</a></li>
+                <li class="island"><a href="#portfolio" class="nav-t-all">Portfolio</a></li>
+                <li class="island"><a href="#contact" class="nav-t-all"> Contact</a></li>
+            </ul>
+        </div><!-- first unit -->
+        <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2">
+        </div><!-- second unit -->     
+    </div><!-- nav grid -->
+</header>
+<!-- No Toggle, Top Nav ends--> 
     
     
 </body>
@@ -47,7 +52,10 @@
     <footer>
         
         <div class="cb-footer">
-            <h2 class="text-center pad-bottom-half">Let's Connect</h2>
+            <h2 class="text-center push-half">Let's Connect</h2>
+                <h3 class="push-0 text-center mega">Valerie Bordeleau</h3>
+                <p class="text-center"><a href="mailto:heythere@valeriebordeleau.ca">heythere@valeriebordeleau.ca</a></p>
+                
                 <div class="grid social-push">
                     <div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 social gutter">
                         <a href="https://www.behance.net/veebordeleau"> 
@@ -97,7 +105,7 @@
             </div><!-- social grid -->
 
             <div class="grid">
-            <nav id="nav" role="navigation">
+                <nav id="nav" role="navigation">
                     <ul class="nav-b nav gutter milli">
                         <li><a href="#intro" class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 nav-b-all">Introduction</a></li>
                         <li><a href="#portfolio" class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 nav-b-all">Portfolio</a></li>
