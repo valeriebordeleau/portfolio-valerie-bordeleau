@@ -29,6 +29,8 @@ a:focus {
     color: #58595B;
     background-color: none;
     list-style-type: none;
+     -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
 }
 
 .nav-t-all:hover {
@@ -46,6 +48,8 @@ a:focus {
     color: #58595B;
     background-color: none;
     list-style-type: none;
+     -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
 }
 
 .nav-b-all:hover {
@@ -76,6 +80,17 @@ a:focus {
 
 .st1:hover {
     fill: #BCBEC0;
+}
+
+.email {
+    text-decoration: none;
+    color: #58595B;
+    -webkit-transition: all 200ms ease-out; 
+    transition: all 200ms ease-out;
+}
+
+.email:hover {
+    color: #BCBEC0;
 }
 
 /* colour blocking */
