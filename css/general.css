@@ -27,6 +27,12 @@ a:focus {
     background-color: #58595B; 
 }
 
+.wordmark {
+    position: absolute;
+    top: 6em;
+    left: calc(50% - 95px)
+}
+
 .st0{
     fill:none;
     stroke:black;
@@ -44,7 +50,7 @@ a:focus {
 .arrow {
     width: 70px;
     position: absolute;
-    top: 26em;
+    top: 20em;
     left: calc(50% - 30px);
 }
 
