@@ -91,7 +91,7 @@ a:focus {
 
 .portfolio {
     background-color: white;
-    padding: 6em 2em;
+    padding: 6em 0em 0em;
     color: #58595B;
 }
 
@@ -146,7 +146,10 @@ a:focus {
 }
 
 /*large*/@media only screen and (min-width: 60em) {
-  
+  .intro {
+    background-color: #BCBEC0;
+    padding: 6em 10em;
+}
 }
 
 /*
