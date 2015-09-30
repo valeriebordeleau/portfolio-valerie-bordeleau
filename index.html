@@ -23,21 +23,22 @@
     <ul class="skip-links">
         <li><a href="#nav">Skip To Navigation</a></li>
         <li><a href="#intro">Skip To Introduction</a></li>
-        <li><a href="#main">Skip To Main Content</a></li>
+        <li><a href="#main">Skip To Main Content</a></li>         <li><a href="#contact">Skip To Contact Info</a></li>
     </ul>    
   
 <!-- No Toggle, Top Nav, Role of Nav is on bottom nav-->    
 <header>
-    <div class="nav-bar">
+    <div class="nav-bar" id="top">
         <div class="list-group text-right">
                 <ul class="gutter pad-top">
                     <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Introduction</a></li>
-                    <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Portfolio</a></li>
-                    <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Contact</a></li>
+                    <li class="list-group__item list-group__item--inline gutter-half"><a href="#portfolio" class="nav-t-item">Portfolio</a></li>
+                    <li class="list-group__item list-group__item--inline gutter-half"><a href="#contact" class="nav-t-item">Contact</a></li>
                 </ul>
         </div><!-- list group --> 
     </div><!-- nav bar --> 
-<!-- No Toggle, Top Nav ends--> 
+
+<!-- Banner --> 
 
     <div class="banner">
         
@@ -54,8 +55,61 @@
 </header>    
     
 <main id="main">
-</main>
+
+<!-- Intro Blurb -->     
     
+    <div class="intro text-center gutter" id="intro">
+        <h2 class="push-0">Hey There!</h2>
+        <p>Why statement will go here once I am happy with that content. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+    </div>
+ 
+<!-- Portfolio -->  
+    
+    <div class="portfolio" id="portfolio">
+        <h2 class="text-center">Portfolio</h2>
+    </div><!-- portfolio -->
+    
+    <div class="grid">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+         <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="embed embed--1by1">
+                <img src="artwork/temp.jpg" class="main-p-img embed__item">
+            </div><!-- embed -->
+        </div><!-- unit -->
+        
+    </div><!-- grid -->
+    
+</main>
+
     
 </body>
     
@@ -66,7 +120,7 @@
     <footer>
         
         <div class="cb-footer">
-            <h2 class="text-center push-half">Let's Connect</h2>
+            <h2 class="text-center push-half pad-top-double" id="contact">Let's Connect</h2>
                 <h3 class="push-0 text-center mega">Valerie Bordeleau</h3>
                 <p class="text-center"><a href="mailto:heythere@valeriebordeleau.ca" class="email">heythere@valeriebordeleau.ca</a></p>
                 
@@ -121,11 +175,10 @@
                 <nav id="nav" role="navigation">
                     <ul class="gutter pad-top-double text-right">
                 <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Introduction</a></li>
-                <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Portfolio</a></li>
-                <li class="list-group__item list-group__item--inline gutter-half"><a href="#intro" class="nav-t-item">Contact</a></li>
+                <li class="list-group__item list-group__item--inline gutter-half"><a href="#portfolio" class="nav-t-item">Portfolio</a></li>
+                <li class="list-group__item list-group__item--inline gutter-half"><a href="#top" class="nav-t-item">Top</a></li>
                     </ul>
                 </nav>
+            <p class="island push-0" role="contentinfo"><small class="micro">© Valerie Bordeleau 2015</small></p>
         </div><!-- footer colour block -->
-        
-        <p class="island push-0" role="contentinfo"><small class="micro">© Valerie Bordeleau 2015</small></p>
     </footer>

@@ -23,13 +23,13 @@ a:focus {
 
 /* Banner */
 .banner {
-    height: 60vh;
+    height: 70vh;
     background-color: #58595B; 
 }
 
 .wordmark {
     position: absolute;
-    top: 6em;
+    top: 7em;
     left: calc(50% - 95px)
 }
 
@@ -50,7 +50,7 @@ a:focus {
 .arrow {
     width: 70px;
     position: absolute;
-    top: 20em;
+    top: 22em;
     left: calc(50% - 30px);
 }
 
@@ -78,6 +78,24 @@ a:focus {
 .nav-t {
     list-style: none;
     display:;
+}
+
+/* Intro Styles */
+
+.intro {
+    background-color: #BCBEC0;
+    padding: 6em 2em;
+}
+
+/* Portfolio Styles */
+
+.portfolio {
+    background-color: white;
+    padding: 6em 2em;
+    color: #58595B;
+}
+
+.main-p-img {
 }
 
 /* Social Media styles */
@@ -112,10 +130,8 @@ a:focus {
     color: #BCBEC0;
 }
 
-/* colour blocking */
-
 .cb-footer {
-    background-color:white; 
+    background-color: rgba(188, 190, 192, 0.5); 
     color: #58595B;
 }
 
