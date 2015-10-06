@@ -98,6 +98,31 @@ a:focus {
 .main-p-img {
 }
 
+/* portfolio pop up */
+.pop-up {
+    display: none;
+}
+
+.pop-up:target {
+    display: block;
+}
+
+/* Bio Styles */
+
+.bio {
+    background-color: #BCBEC0;
+    padding: 6em 2em;
+    height:19em;
+}
+
+.bio-img {
+    height:19em;
+    background-image: url(../artwork/notch-h.svg);
+    background-size: 2.5em;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
 /* Social Media styles */
 .social {
     max-width: 90px;
@@ -141,7 +166,12 @@ a:focus {
 }
 
 /*medium*/@media only screen and (min-width: 38em) {
-      
+ .bio-img {
+    background-image: url(../artwork/notch.svg);
+    background-size: 1.5em;
+    background-position: center left;
+    background-repeat: no-repeat;
+}     
 
 }
 
