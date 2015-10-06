@@ -96,6 +96,8 @@ a:focus {
 }
 
 .main-p-img {
+    height: 70vh;
+    background-color: #58595B; 
 }
 
 /* portfolio pop up */
@@ -159,6 +161,22 @@ a:focus {
     background-color: rgba(188, 190, 192, 0.5); 
     color: #58595B;
 }
+
+/* PROJECT STYLES */
+
+.p-main-img {
+    height: 60vh;
+    background-color: #58595B; 
+}
+
+.p-nav-bar {
+    background-color:rgba(188, 190, 192, .2);
+    min-height: 65px;
+    box-shadow: 0px 2px 20px rgba(35, 31, 32, 0.1);  
+}
+
+/* PROJECT STYLES END */
+
 
 /*small*/@media only screen and (min-width: 25em) {
     
