@@ -165,20 +165,18 @@ a:focus {
 /* PROJECT STYLES */
 
 .p-main-img {
-    height: 70vh;
+    height: 80vh;
     background-color: #58595B; 
 }
 
 .p-nav-bar {
     background-color:rgba(188, 190, 192, .2);
-    min-height: 65px;
+    height: 80px;
     box-shadow: 0px 2px 20px rgba(35, 31, 32, 0.1);  
 }
 
 .p-text-blurb {
-    background-color: #BCBEC0;
-    padding: 6em 2em;
-    height:19em;
+    background-color: white;
 }
 
 /* PROJECT STYLES END */
