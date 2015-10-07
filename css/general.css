@@ -90,8 +90,8 @@ a:focus {
 /* Portfolio Styles */
 
 .portfolio {
-    background-color: white;
-    padding: 6em 0em 0em;
+    background-color: rgba(188, 190, 192, 0.3);
+    padding: 8em 0em 0em;
     color: #58595B;
 }
 
@@ -183,7 +183,27 @@ a:focus {
 }
 
 .p-text-blurb {
-    background-color: white;
+}
+
+.close {
+    height: 8%;
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 25px)
+}
+
+.previous {
+    height: 8%;
+    position: absolute;
+    top: 10px;
+    left: calc(5% - 10px)
+}
+
+.next {
+    height: 8%;
+    position: absolute;
+    top: 10px;
+    left: calc(90% - 15px)
 }
 
 /* PROJECT STYLES END */
