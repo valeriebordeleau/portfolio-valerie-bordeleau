@@ -97,6 +97,14 @@ a:focus {
     color: #58595B;
 }
 
+.product-1 {
+    background-image: url(../artwork/temp.jpg);
+    background-size:19em;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 .img-hover {
     opacity: 1;
     -webkit-transition: all 200ms ease-out; 
@@ -176,11 +184,13 @@ a:focus {
 .p-main-img {
     height: 25em;
     background-color: #58595B; 
+    background-image: url(../artwork/notch-h-b.svg);
+    background-position: bottom center;
+    background-size: 2em;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
-
-.p-overview {
-}
-
 
 .p-text-blurb {
     padding: 2.5em .5em 0em;
@@ -189,6 +199,7 @@ a:focus {
 .p-overview {
     background-color:rgba(188, 190, 192, .5);
     padding: 2em;
+    margin: 0;
 }
 
 /* Project Nav */
