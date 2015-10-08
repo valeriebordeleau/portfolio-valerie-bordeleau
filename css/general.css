@@ -97,7 +97,7 @@ a:focus {
     color: #58595B;
 }
 
-.product-1 {
+.xproduct-1 {
     background-image: url(../artwork/temp.jpg);
     background-size:19em;
     background-repeat: no-repeat;
@@ -136,9 +136,9 @@ a:focus {
 
 .bio-img {
     height:19em;
-    background-image: url(../artwork/notch-h.svg);
-    background-size: 2.5em;
-    background-position: top center;
+    background-image: url(../artwork/notch-h.svg), url(../artwork/temp.jpg);
+    background-size: 2.5em, 18em;
+    background-position: top center, center;
     background-repeat: no-repeat;
 }
 
