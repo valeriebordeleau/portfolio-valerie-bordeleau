@@ -48,10 +48,7 @@ a:focus {
 }
 
 .arrow {
-    width: 70px;
-    position: absolute;
-    top: 22em;
-    left: calc(50% - 30px);
+    display: none;
 }
 
 
@@ -235,7 +232,13 @@ a:focus {
 
 
 /*small*/@media only screen and (min-width: 25em) {
-    
+ 
+.arrow {
+    width: 70px;
+    position: absolute;
+    top: 22em;
+    left: calc(50% - 30px);
+}
 
 }
 
