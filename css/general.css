@@ -30,7 +30,6 @@ a:focus {
 .wordmark {
     position: absolute;
     top: 7em;
-    left: calc(50% - 95px)
 }
 
 .st0{
@@ -234,7 +233,7 @@ a:focus {
 /*ios vh page support feature */ 
 @supports(min-height:100vh) {
 .banner {
-    min-height: 80vh;
+    min-height: 70vh;
     }
     
     .thing {
