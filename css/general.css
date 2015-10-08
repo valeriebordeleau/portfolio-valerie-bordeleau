@@ -61,6 +61,7 @@ a:focus {
 }
 
 .nav-t-item {
+    display: block;
     text-decoration: none;
     color: #58595B;
     background-color: transparent;
@@ -103,6 +104,8 @@ a:focus {
 }
 
 .img-hover {
+    width: 100%;
+    display: block;
     opacity: 1;
     -webkit-transition: all 200ms ease-out; 
     transition: all 600ms ease-out;
