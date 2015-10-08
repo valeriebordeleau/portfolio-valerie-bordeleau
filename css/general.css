@@ -23,7 +23,7 @@ a:focus {
 
 /* Banner */
 .banner {
-    height: 70vh;
+    height: 35em;
     background-color: rgba(188, 190, 192, 0.2);
 }
 
@@ -231,8 +231,15 @@ a:focus {
 /* PROJECT STYLES END */
 
 
-/*ios vh page support feature */ @supports(min-height:100vh) {
-    min-height: 40em;
+/*ios vh page support feature */ 
+@supports(min-height:100vh) {
+.banner {
+    min-height: 80vh;
+    }
+    
+    .thing {
+    min-height: 100vh;
+    }
 }
 
 /*small*/@media only screen and (min-width: 25em) {
