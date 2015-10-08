@@ -234,6 +234,7 @@ a:focus {
 /*small*/@media only screen and (min-width: 25em) {
  
 .arrow {
+    display: block;
     width: 70px;
     position: absolute;
     top: 22em;
