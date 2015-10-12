@@ -80,6 +80,10 @@ a:focus {
     display:;
 }
 
+.nav-push {
+    padding-right: calc(50% - 107px);
+}
+
 /* Intro Styles */
 
 .intro {
