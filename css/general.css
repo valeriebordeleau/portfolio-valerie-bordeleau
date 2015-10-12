@@ -95,14 +95,6 @@ a:focus {
     color: #58595B;
 }
 
-.xproduct-1 {
-    background-image: url(../artwork/temp.jpg);
-    background-size:19em;
-    background-repeat: no-repeat;
-    background-position: center;
-    
-}
-
 .img-hover {
     width: 100%;
     display: block;
