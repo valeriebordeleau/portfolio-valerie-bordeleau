@@ -211,21 +211,21 @@ a:focus {
 }
 
 .close {
-    height: 8%;
+    height: 62px;
     position: absolute;
     top: 10px;
     left: calc(50% - 25px)
 }
 
 .previous {
-    height: 8%;
+    height: 62px;
     position: absolute;
     top: 10px;
     left: calc(5% - 10px)
 }
 
 .next {
-    height: 8%;
+    height: 62px;
     position: absolute;
     top: 10px;
     left: calc(90% - 15px)
