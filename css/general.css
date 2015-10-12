@@ -206,26 +206,26 @@ a:focus {
 
 .p-nav-bar {
     background-color:rgba(188, 190, 192, .5);
-    height: 80px;
+    height: 75px;
     box-shadow: 0px 2px 20px rgba(35, 31, 32, 0.1);  
 }
 
 .close {
-    height: 62px;
+    height: 58px;
     position: absolute;
     top: 10px;
     left: calc(50% - 25px)
 }
 
 .previous {
-    height: 62px;
+    height: 58px;
     position: absolute;
     top: 10px;
     left: calc(5% - 10px)
 }
 
 .next {
-    height: 62px;
+    height: 58px;
     position: absolute;
     top: 10px;
     left: calc(90% - 15px)
