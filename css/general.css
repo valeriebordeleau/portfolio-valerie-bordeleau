@@ -200,6 +200,10 @@ a:focus {
 
 /* Project Nav */
 
+.p-nav-push {
+    padding-right: calc(50% - 70px); 
+}
+
 .p-nav-bar {
     background-color:rgba(188, 190, 192, .5);
     height: 80px;
