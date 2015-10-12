@@ -28,9 +28,13 @@ a:focus {
 }
 
 .wordmark {
-    position: absolute;
-    top: 7em;
-    left: calc(50% - 95px)
+    padding-top: 6em;
+}
+
+.arrow {
+    width: 50px;
+    padding-top: 0em;
+    padding-left: calc(50%-100px)
 }
 
 .st0{
@@ -45,10 +49,6 @@ a:focus {
     fill:none;
     stroke:#BCBEC0;
     stroke-width:40;
-}
-
-.arrow {
-    display: none;
 }
 
 
@@ -205,7 +205,7 @@ a:focus {
 }
 
 .p-nav-bar {
-    background-color:rgba(188, 190, 192, .4FF);
+    background-color:rgba(188, 190, 192, .4);
     height: 75px;
     box-shadow: 0px 2px 20px rgba(35, 31, 32, 0.1);  
 }
@@ -242,14 +242,6 @@ a:focus {
 }
 
 /*small*/@media only screen and (min-width: 25em) {
- 
-.arrow {
-    display: block;
-    width: 70px;
-    position: absolute;
-    top: 22em;
-    left: calc(50% - 30px);
-}
 
 }
 
