@@ -1,6 +1,6 @@
-[-Introduction](http://valeriebordeleau.ca/#intro)
-[-Projects](http://valeriebordeleau.ca/#projects)
-[-Contact](http://valeriebordeleau.ca/#projects)
+[Introduction](http://valeriebordeleau.ca/#intro)
+[Projects](http://valeriebordeleau.ca/#projects)
+[Contact](http://valeriebordeleau.ca/#projects)
 
 # Valerie Bordeleau
 ### Ottawa, ON
