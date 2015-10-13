@@ -36,6 +36,7 @@ a:focus {
 }
 
 .arrow-push {
+    padding-left: calc(50% - 100px);
     
 }
 
