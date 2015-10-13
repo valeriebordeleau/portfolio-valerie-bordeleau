@@ -147,6 +147,9 @@ a:focus {
     display: inline-block;
 }
 
+.social-push {
+    padding-left: calc(10% + 15px);
+}  
 
 .st1 {
     fill: #58595B;
