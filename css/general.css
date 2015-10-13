@@ -278,6 +278,10 @@ a:focus {
     background-color: #BCBEC0;
     padding: 6em 10em;
 }
+    
+.p-text-blurb {
+    padding: 0em 1.3em 3em 1.3em;
+}
   
 /*Projects*/    
     
