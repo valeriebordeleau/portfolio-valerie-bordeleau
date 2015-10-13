@@ -32,9 +32,11 @@ a:focus {
 }
 
 .arrow {
-    width: 50px;
-    padding-top: 0em;
-    padding-left: calc(50%-100px)
+    width: 200px;
+}
+
+.arrow-push {
+    
 }
 
 .st0{
