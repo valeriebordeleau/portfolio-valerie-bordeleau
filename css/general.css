@@ -141,14 +141,12 @@ a:focus {
 
 /* Social Media styles */
 .social {
-    width:80px;
+    width:50px;
+    padding: 0 .25em 0 .25em;
     text-align: center;
     display: inline-block;
 }
 
-.social-push {
-    padding-left: calc(50% - 165px);
-}
 
 .st1 {
     fill: #58595B;
@@ -252,10 +250,15 @@ a:focus {
     
 .social {
     width:80px;
+    padding: 0 1em 0 1em;
     text-align: center;
     display: inline-block;
 }
 
+.social-push {
+    padding-left: calc(50% - 165px);
+}    
+    
 
 /*small*/@media only screen and (min-width: 25em) {
 
