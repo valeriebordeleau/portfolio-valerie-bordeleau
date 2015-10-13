@@ -32,11 +32,11 @@ a:focus {
 }
 
 .arrow {
-    width: 200px;
+    width: 90px;
 }
 
 .arrow-push {
-    padding-left: calc(50% - 100px);
+    display: block;
     
 }
 
