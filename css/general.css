@@ -142,12 +142,13 @@ a:focus {
 
 /* Social Media styles */
 .social {
+    width:30px;
     text-align: center;
     display: inline-block;
 }
 
 .social-push {
-    padding-left: calc(50% - 180px);
+    padding-left: calc(50% - 165px);
 }
 
 .st1 {
@@ -243,20 +244,21 @@ a:focus {
     }
 }
 
-/*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 15em) {
+/*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
 
 .email {
     font-size: 1em;    
     
+}
+    
+.social {
+    width:80px;
+    text-align: center;
+    display: inline-block;
 }
 
 
 /*small*/@media only screen and (min-width: 25em) {
-
-.email {
-    font-size: 1em;    
-    
-}
 
 /*medium*/@media only screen and (min-width: 38em) {
  .bio-img {
