@@ -22,6 +22,14 @@ a:focus {
 }
 
 /* Banner */
+.only-sm {
+    display: block;  
+} 
+    
+.only-m-l {
+    display: none;  
+} 
+
 .banner {
     height: 35em;
     background-color: rgba(188, 190, 192, 0.2);
@@ -266,7 +274,15 @@ a:focus {
 /*small*/@media only screen and (min-width: 25em) {
 
 /*medium*/@media only screen and (min-width: 38em) {
- .bio-img {
+.only-sm {
+    display: none;  
+} 
+    
+.only-m-l {
+    display: block;  
+} 
+    
+.bio-img {
     background-image: url(../artwork/notch.svg);
     background-size: 1.5em;
     background-position: center left;
