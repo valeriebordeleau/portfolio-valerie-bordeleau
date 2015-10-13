@@ -106,8 +106,6 @@ a:focus {
     padding: 0;
     margin: 0;
     opacity: 1;
-    -webkit-transition: all 100ms ease-out; 
-    transition: all 100ms ease-out;
 }
 
 .img-hover:hover {
