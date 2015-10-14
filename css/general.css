@@ -86,7 +86,7 @@ a:focus {
 
 .toggle-check:checked ~ .toggle-menu {
     display: block;
-    margin:15px 0 0 0em;
+    margin:0px 0 0 0em;
 }
 
 .nav-bar {
@@ -101,6 +101,7 @@ a:focus {
     height: 65px;
     box-shadow: 0px 0px 1px 2px rgba(35, 31, 32, 0.18);
     margin: 0;
+    padding: 0;
 }
 
 .toggle-menu {
