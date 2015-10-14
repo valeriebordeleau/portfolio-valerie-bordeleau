@@ -79,7 +79,6 @@ a:focus {
 .toggle {
     padding-top: 1em;
     padding-left: 1em;
-    width: 90px;
     display: block;
     opacity: 1;
 }
