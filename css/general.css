@@ -72,6 +72,10 @@ a:focus {
     display: block;
 }
 
+.toggle-check:checked ~ .toggle-menu {
+    display: block;
+}
+
 .nav-bar {
     background-color:rgba(188, 190, 192, 0.5);
     height: 65px;
@@ -196,7 +200,7 @@ a:focus {
 }
 
 .social-push {
-    padding-left: calc(10% + 15px);
+    padding-left: calc(10% + 33px);
 }  
 
 .st1 {
