@@ -316,7 +316,7 @@ a:focus {
     height: 58px;
     position: absolute;
     top: 10px;
-    left: calc(90% - 15px);
+    right: calc(5% - 10px);
     opacity: 1;
 }
 
