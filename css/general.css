@@ -35,10 +35,13 @@ a:focus {
 .arrow {
     width: 90px;
     opacity: 1;
+    position: absolute;
+    left: calc(50% - 45px);
+    fill:#58595B;
 }
 
 .arrow:hover {
-    opacity: .7;
+    fill:#BCBEC0;
 }
 
 .arrow-push {
