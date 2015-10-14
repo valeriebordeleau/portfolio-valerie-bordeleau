@@ -34,6 +34,11 @@ a:focus {
 
 .arrow {
     width: 90px;
+    opacity: 1;
+}
+
+.arrow:hover {
+    opacity: .7;
 }
 
 .arrow-push {
@@ -74,6 +79,11 @@ a:focus {
     padding-left: 1em;
     width: 90px;
     display: block;
+    opacity: 1;
+}
+
+.toggle:hover {
+    opacity: .7;
 }
 
 .toggle-check {
@@ -281,21 +291,36 @@ a:focus {
     height: 58px;
     position: absolute;
     top: 10px;
-    left: calc(50% - 25px)
+    left: calc(50% - 25px);
+    opacity: 1;
+}
+
+.close:hover {
+    opacity: .7;   
 }
 
 .previous {
     height: 58px;
     position: absolute;
     top: 10px;
-    left: calc(5% - 10px)
+    left: calc(5% - 10px);
+    opacity: 1;
+}
+
+.previous:hover {
+    opacity: .7;
 }
 
 .next {
     height: 58px;
     position: absolute;
     top: 10px;
-    left: calc(90% - 15px)
+    left: calc(90% - 15px);
+    opacity: 1;
+}
+
+.next:hover {
+    opacity: .7;
 }
 
 /* PROJECT STYLES END */
