@@ -375,6 +375,12 @@ a:focus {
     padding: 2.5em .5em 0em;
 }
 
+.bio {
+    background-color: #BCBEC0;
+    padding: 3.5em 2em;
+    height:19em;
+}    
+    
 }
 
 /*large*/@media only screen and (min-width: 75em) {
@@ -386,6 +392,12 @@ a:focus {
 .p-text-blurb {
     padding: 0em 1.3em 3em 1.3em;
 }
+    
+.bio {
+    background-color: #BCBEC0;
+    padding: 5em 2em;
+    height:19em;
+}     
   
 /*Projects*/    
     
