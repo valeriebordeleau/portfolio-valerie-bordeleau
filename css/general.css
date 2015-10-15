@@ -297,7 +297,7 @@ a:focus {
 }
 
 .close:hover {
-    opacity: .7;   
+    opacity: .5;   
 }
 
 .previous {
@@ -309,7 +309,7 @@ a:focus {
 }
 
 .previous:hover {
-    opacity: .7;
+    opacity: .5;
 }
 
 .next {
@@ -321,7 +321,7 @@ a:focus {
 }
 
 .next:hover {
-    opacity: .7;
+    opacity: .5;
 }
 
 /* PROJECT STYLES END */
