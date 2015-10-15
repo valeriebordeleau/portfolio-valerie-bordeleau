@@ -34,6 +34,7 @@ a:focus {
 
 .arrow {
     width: 90px;
+    fill:#58595B;
     opacity: 1;
     position: absolute;
     left: calc(50% - 45px);
@@ -290,6 +291,7 @@ a:focus {
 
 .close {
     height: 58px;
+    fill:#58595B;
     position: absolute;
     top: 10px;
     left: calc(50% - 25px);
@@ -302,6 +304,7 @@ a:focus {
 
 .previous {
     height: 58px;
+    fill:#58595B;
     position: absolute;
     top: 10px;
     left: calc(5% - 10px);
@@ -314,6 +317,7 @@ a:focus {
 
 .next {
     height: 58px;
+    fill:#58595B;
     position: absolute;
     top: 10px;
     right: calc(5% - 10px);
