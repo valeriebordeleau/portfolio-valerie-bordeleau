@@ -160,7 +160,7 @@ a:focus {
 }
 
 .nav-push {
-    padding-right: calc(50% - 165px);
+    padding-right: calc(50% - 155px);
 }
 
 /* Intro Styles */
@@ -353,7 +353,7 @@ a:focus {
 }
 
 .social-push {
-    padding-left: calc(50% - 165px);
+    padding-left: calc(50% - 150px);
 }    
     
 
