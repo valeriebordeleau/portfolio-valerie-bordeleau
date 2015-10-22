@@ -1,11 +1,20 @@
 ---
 layout: projects
 ---
-        
+<!-- jekyll sample
+{% for dino in site.data.dinos %}
+    <h3>{{dino.name}}</h3>
+    <dl>
+        <dt>Diet</dt>
+        <dd>{{dino.diet}}</dd>
+        <dt>Size</dt>
+        <dd>{{dino.size}}</dd>
+        </dl>
+    {% endfor %} -->   
+
 <!-- Main Image --> 
 
     <div class="p-main-img" alt="Image Description">
-       
        
     </div>   
     
@@ -15,8 +24,10 @@ layout: projects
 
 <!-- Overview -->  
     <div class="p-overview text-center">
-         <h2 class="push-0">Project Title</h2>
-            <p>The problem I set out to solve with this project was this. Some challenges of this project are these. This project was made for this person. It gave me experience in this area.</p>
+        {% for projectone in site.data.projectone %}
+         <h2 class="push-0">{{projectone.title}}</h2>
+            <p>{{projectone.blurb}}</p>
+        {% endfor %}
     </div><!-- overview -->
 
 <!-- Portfolio -->  
@@ -31,7 +42,9 @@ layout: projects
              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb text-center gutter">
                 <h2 class="push-0 pad-top">Concept</h2>
-                <p>It all began with sketches.This thing and this thing came togther and helped me come up with this concept.  Here's why I thought it was an effective idea.</p>
+                {% for projectone in site.data.projectone %}
+                <p>{{projectone.concept}}</p>
+                {% endfor %}
             </div><!--blurb--> 
         </div> <!--unit-->
 
@@ -44,7 +57,9 @@ layout: projects
              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb text-center gutter">
                 <h2 class="push-0 pad-top p-blurb">Execution</h2>
-                <p>This project was excecuted using such and such technique. It seemed appropriate for this great reason. As a result the project was super successful, here's why.</p>
+                {% for projectone in site.data.projectone %}
+                <p>{{projectone.execution}}</p>
+                {% endfor %}
             </div><!--blurb--> 
         </div> <!--unit-->
 
