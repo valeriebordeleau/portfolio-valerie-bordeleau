@@ -31,7 +31,8 @@ a:focus {
 .wordmark {
     color: white;
     padding-top: 4em;
-    width: 70%;
+    width: 50%;
+    padding-left: calc(50% - 10px);
 }
 
 .arrow {
