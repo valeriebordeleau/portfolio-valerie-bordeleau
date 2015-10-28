@@ -32,7 +32,6 @@ a:focus {
     color: white;
     padding-top: 4em;
     width: 50%;
-    padding-left: calc(50% - 10px);
 }
 
 .arrow {
