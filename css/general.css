@@ -259,7 +259,7 @@ a:focus {
 
 .p-main-img {
     height: 25em;
-    background-color: #58595B; 
+    background-color: rgba(8, 38, 44, .95); 
     background-image: url(../artwork/notch-h-b.svg);
     background-position: bottom center;
     background-size: 2em;
@@ -273,6 +273,7 @@ a:focus {
 }
 
 .p-overview {
+    color: rgba(8, 38, 44, 1);
     background-color:#B8CED0;
     padding: 2em;
     margin: 0;
