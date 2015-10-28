@@ -30,27 +30,24 @@ a:focus {
 
 .wordmark {
     color: white;
-    padding-top: 4em;
+    padding-top: 5em;
     width: 50%;
 }
 
 .arrow {
-    width: 90px;
+    width: 40px;
     fill:#58595B;
     opacity: 1;
-    position: absolute;
-    left: calc(50% - 45px);
     fill:#58595B;
+    display: block;
+    position: absolute;
+    left: calc(50% - 20px);
 }
 
 .arrow:hover {
     fill:#BCBEC0;
 }
 
-.arrow-push {
-    display: block;
-    
-}
 
 .st0{
     fill:none;
@@ -390,6 +387,11 @@ a:focus {
 }
 
 /*large*/@media only screen and (min-width: 75em) {
+
+.wordmark {
+    width: 30%;
+}
+    
 .intro {
     background-color: #BCBEC0;
     padding: 10em 16em;
