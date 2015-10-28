@@ -175,7 +175,7 @@ a:focus {
 .portfolio {
     background-color: rgba(188, 190, 192, 0.3);
     padding: 8em 0em 0em;
-    color: #58595B;
+    fill:#7EA8AD;
 }
 
 .img-hover {
@@ -205,6 +205,7 @@ a:focus {
     background-color: #B8CED0;
     padding: 6em 2em;
     height:19em;
+    color: 
 }
 
 .bio-img {
@@ -272,7 +273,7 @@ a:focus {
 }
 
 .p-overview {
-    background-color:#D3D3D3;
+    background-color:#B8CED0;
     padding: 2em;
     margin: 0;
 }
@@ -284,14 +285,14 @@ a:focus {
 }
 
 .p-nav-bar {
-    background-color:rgba(188, 190, 192, .4);
+    background-color:rgba(8, 38, 44, 1);
     height: 75px;
     box-shadow: 0px 2px 20px rgba(35, 31, 32, 0.1);  
 }
 
 .close {
     height: 58px;
-    fill:#58595B;
+    fill:white;
     position: absolute;
     top: 10px;
     left: calc(50% - 25px);
@@ -299,12 +300,12 @@ a:focus {
 }
 
 .close:hover {
-    opacity: .5;   
+    fill:#7EA8AD;   
 }
 
 .previous {
     height: 58px;
-    fill:#58595B;
+    fill:white;
     position: absolute;
     top: 10px;
     left: calc(5% - 10px);
@@ -312,12 +313,12 @@ a:focus {
 }
 
 .previous:hover {
-    opacity: .5;
+    fill:#7EA8AD;
 }
 
 .next {
     height: 58px;
-    fill:#58595B;
+    fill:white;
     position: absolute;
     top: 10px;
     right: calc(5% - 10px);
@@ -325,7 +326,7 @@ a:focus {
 }
 
 .next:hover {
-    opacity: .5;
+    fill:#7EA8AD;
 }
 
 /* PROJECT STYLES END */
