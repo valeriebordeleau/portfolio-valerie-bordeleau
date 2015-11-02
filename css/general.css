@@ -80,11 +80,11 @@ a:focus {
     padding-left: 1em;
     display: block;
     opacity: 1;
-    fill: rgba(8, 38, 44, 1);
+    fill: #333E48;
 }
 
 .toggle:hover {
-    fill: #7EA8AD;
+    fill: #B8CED0;
 }
 
 .toggle-check {
@@ -117,7 +117,7 @@ a:focus {
     padding: .5em 0 1.5em 0;
     margin: 0px;
     box-shadow: 0px 0px 2px 0px rgba(35, 31, 32, 0.18);
-    background-color:rgba(184, 208, 206, .5);
+    background-color:rgba(237, 243, 243, 1);
     display: none;
     position: relative;
     z-index: 1000;
@@ -161,7 +161,7 @@ a:focus {
 }
 
 .nav-push {
-    padding-right: calc(50% - 177px);
+    padding-right: calc(50% - 158px);
 }
 
 /* Intro Styles */
@@ -254,7 +254,7 @@ a:focus {
 }
 
 .cb-footer {
-    color: rgba(8, 38, 44, 1); 
+    color: #333E48; 
     background-color:rgba(184, 208, 206, .25);
 }
 
@@ -365,6 +365,11 @@ a:focus {
 /*small*/@media only screen and (min-width: 25em) {
 
 /*medium*/@media only screen and (min-width: 38em) {
+.nav-push {
+    padding-right: calc(50% - 177px);
+}
+
+    
 .only-sm {
     display: none;  
 } 
@@ -440,6 +445,7 @@ pale grey blue = #B8CED0
 rgba(184, 208, 206)
 dark grey blue = #333E48
 rgba(51, 62, 72,)
+off white = rgba(237, 243, 243, 1)
 navy = #08262C
 rgba(8, 38, 44,)
 */
