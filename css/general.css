@@ -85,7 +85,7 @@ a:focus {
 }
 
 .toggle:hover {
-    fill: #7EA8AD;
+    fill: #B8CED0;
 }
 
 .toggle-check {
@@ -155,7 +155,8 @@ a:focus {
 
 .nav-t2-item:hover {
     color: white;
-    background-color: #7EA8AD;
+    font-weight: 400;
+    background-color: #B8CED0;
 }
 
 .nav-t {
