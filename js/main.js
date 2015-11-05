@@ -1,2 +1,3 @@
 $('.toggle-menu').localScroll();
-$('.arrow').localScroll();
+$('.nav-push').localScroll();
+$('.js-arrow-scroll').localScroll();

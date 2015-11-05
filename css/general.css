@@ -133,7 +133,7 @@ a:focus {
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
-  line-height: 1.4625;
+    line-height: 1.4625;
     text-transform: uppercase;
      -webkit-transition: all 200ms ease-out; 
     transition: all 200ms ease-out;
@@ -153,8 +153,8 @@ a:focus {
     list-style-type: none;
     margin: 0;
     text-transform: uppercase;
-     -webkit-transition: all 200ms ease-out; 
-    transition: all 200ms ease-out;
+     -webkit-transition: all 250ms ease-out; 
+    transition: all 250ms ease-out;
 }
 
 .nav-t2-item:hover {
@@ -166,10 +166,6 @@ a:focus {
 .nav-t {
     list-style: none;
     display:;
-}
-
-.nav-push {
-    padding-right: calc(50% - 158px);
 }
 
 /* Intro Styles */
@@ -236,11 +232,7 @@ a:focus {
     text-align: center;
     display: inline-block;
 }
-
-.social-push {
-    padding-left: calc(10% + 33px);
-}  
-
+ 
 .st1 {
     fill:#333E48;
     -webkit-transition: all 500ms ease-out; 
@@ -252,7 +244,7 @@ a:focus {
 }
 
 .email {
-    font-size: .8em;
+    font-size: 1em;
     text-decoration: none;
     color:rgba(8, 38, 44, 1);
     -webkit-transition: all 200ms ease-out; 
@@ -293,10 +285,6 @@ a:focus {
 }
 
 /* Project Nav */
-
-.p-nav-push {
-    padding-right: calc(50% - 70px); 
-}
 
 .p-nav-bar {
     background-color:;
@@ -372,20 +360,10 @@ a:focus {
     text-align: center;
     display: inline-block;
 }
-
-.social-push {
-    padding-left: calc(50% - 150px);
-}    
-    
-
+      
 /*small*/@media only screen and (min-width: 25em) {
 
 /*medium*/@media only screen and (min-width: 38em) {
-.nav-push {
-    padding-right: calc(50% - 177px);
-}
-
-    
 .only-sm {
     display: none;  
 } 
@@ -414,7 +392,6 @@ a:focus {
 }
 
 /*large*/@media only screen and (min-width: 75em) {
-
 .wordmark {
     width: 30%;
 }
