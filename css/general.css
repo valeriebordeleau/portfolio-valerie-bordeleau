@@ -24,7 +24,7 @@ a:focus {
 /* Banner */ 
 
 .banner {
-    height: 35em;
+    height: 30em;
     background-color: #58595B;
 }
 
@@ -41,6 +41,8 @@ a:focus {
     display: block;
     position: absolute;
     left: calc(50% - 20px);
+    -webkit-transition: all 500ms ease-out; 
+    transition: all 500ms ease-out;
 }
 
 .arrow:hover {
@@ -188,13 +190,13 @@ a:focus {
 .img-hover {
     padding: 0;
     margin: 0;
-    opacity: 1;
+    opacity: .85;
     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out;
 }
 
 .img-hover:hover {
-    opacity: .7;
+    opacity: 1;
 }
 
 /* portfolio pop up 
@@ -342,7 +344,7 @@ a:focus {
 /*ios vh page support feature */ 
 @supports(min-height:100vh) {
 .banner {
-    min-height: 80vh;
+    min-height: 76vh;
     }
 }
 
@@ -363,6 +365,10 @@ a:focus {
 /*small*/@media only screen and (min-width: 25em) {
 
 /*medium*/@media only screen and (min-width: 38em) {
+.wordmark {
+    width: 45%;
+}
+    
 .only-sm {
     display: none;  
 } 
@@ -379,13 +385,13 @@ a:focus {
 }     
     
 .p-text-blurb {
-    padding: 2.5em .5em 0em;
+    padding: 2em .5em 0em;
 }
 
 .bio {
     background-color: #B8CED0;
-    padding: 2em 2em;
-    height:19em;
+    padding: 4em 2em;
+    height:22em;
 }    
     
 }
@@ -405,8 +411,8 @@ a:focus {
     
 .bio {
     background-color: #B8CED0;
-    padding: 5em 2em;
-    height:19em;
+    padding: 5em 5em;
+    height:20em;
 }     
   
 /*Projects*/    
