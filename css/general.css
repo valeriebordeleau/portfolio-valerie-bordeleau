@@ -29,9 +29,15 @@ a:focus {
 }
 
 .wordmark {
-    color: white;
-    padding-top: 5em;
+    fill: white;
+    padding-top: 4em;
     width: 50%;
+     -webkit-transition: all 500ms ease-out; 
+    transition: all 250ms ease-out;
+}
+
+.wordmark:hover {
+    fill: #7EA8AD;
 }
 
 .arrow {
@@ -42,7 +48,7 @@ a:focus {
     position: absolute;
     left: calc(50% - 20px);
     -webkit-transition: all 500ms ease-out; 
-    transition: all 500ms ease-out;
+    transition: all 250ms ease-out;
 }
 
 .arrow:hover {
@@ -84,6 +90,8 @@ a:focus {
     display: block;
     opacity: 1;
     fill: white;
+     -webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
 }
 
 .toggle:hover {
@@ -290,15 +298,15 @@ a:focus {
 
 .p-nav-bar {
     background-color:#303030;
-    height: 75px;  
+    height: 80px;  
 }
 
 .close {
     height: 58px;
     fill:white;
     position: absolute;
-    top: 10px;
-    left: calc(50% - 25px);
+    top: 12px;
+    left: calc(50% - 80px);
     opacity: 1;
     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out;
@@ -312,7 +320,7 @@ a:focus {
     height: 58px;
     fill:white;
     position: absolute;
-    top: 10px;
+    top: 12px;
     left: calc(5% - 10px);
     opacity: 1;
     -webkit-transition: all 500ms ease-out; 
@@ -327,7 +335,7 @@ a:focus {
     height: 58px;
     fill:white;
     position: absolute;
-    top: 10px;
+    top: 12px;
     right: calc(5% - 10px);
     opacity: 1;
     -webkit-transition: all 500ms ease-out; 
