@@ -196,7 +196,7 @@ a:focus {
 .img-hover {
     padding: 0;
     margin: 0;
-    opacity: .85;
+    opacity: 1;
     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out;
 }
@@ -374,6 +374,16 @@ a:focus {
 .wordmark {
     width: 45%;
 }
+      
+.img-hover {
+    opacity: .85;
+    -webkit-transition: all 500ms ease-out; 
+    transition: all 500ms ease-out;
+}
+
+.img-hover:hover {
+    opacity: 1;
+}  
     
 .only-sm {
     display: none;  
