@@ -30,7 +30,7 @@ a:focus {
 
 .wordmark {
     fill: white;
-    padding-top: 4em;
+    padding-top: 5em;
     width: 50%;
      -webkit-transition: all 500ms ease-out; 
     transition: all 250ms ease-out;
@@ -301,10 +301,11 @@ a:focus {
 
 .close {
     height: 58px;
+    width: 135px;
     fill:white;
     position: absolute;
-    top: 12px;
-    left: calc(50% - 80px);
+    top: 15px;
+    left: calc(50% - 67.5px);
     opacity: 1;
     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out;
@@ -377,9 +378,29 @@ a:focus {
     color: black;
 }
 
+
+    
 /*medium*/@media only screen and (min-width: 38em) {
+.close {
+    width:160px;
+    height: 58px;
+    fill:white;
+    position: absolute;
+    top: 12px;
+    left: calc(50% - 80px);
+    opacity: 1;
+    -webkit-transition: all 500ms ease-out; 
+    transition: all 500ms ease-out;
+}
+
+.close:hover {
+    fill:#7EA8AD;   
+}     
+    
+    
 .wordmark {
     width: 45%;
+    padding-top: 4em;
 }
       
 .img-hover {
@@ -436,7 +457,12 @@ a:focus {
     background-color: #B8CED0;
     padding: 5em 5em;
     height:20em;
-}     
+}
+    
+.p-pad {
+    padding-top: 2em;
+}
+} 
   
 /*Projects*/    
     
