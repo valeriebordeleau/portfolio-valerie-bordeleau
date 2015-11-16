@@ -271,9 +271,8 @@ a:focus {
 /* PROJECT STYLES */
 
 .p-main-img {
-    height: 25em;
+    height: 20em;
     background-color: #58595B; 
-    background-image: url(../artwork/notch-h-b.svg);
     background-position: bottom center;
     background-size: 2em;
     background-repeat: no-repeat;
@@ -380,7 +379,7 @@ a:focus {
 
 
     
-/*medium*/@media only screen and (min-width: 38em) {
+/*medium*/@media only screen and (min-width: 40em) {
 .close {
     width:160px;
     height: 58px;
@@ -441,6 +440,7 @@ a:focus {
 }
 
 /*large*/@media only screen and (min-width: 75em) {
+
 .wordmark {
     width: 30%;
 }
@@ -462,17 +462,23 @@ a:focus {
 .p-pad {
     padding-top: 2em;
 }
-} 
+
+.p-main-img {
+    height: 30em;
+}
   
 /*Projects*/    
-    
-.p-main-img {
-    height: 40em;
-}
 
 .p-overview {
-    padding: 2em 10em 2em 10em;
+    padding: 2em 4em 2em 4em;
 }    
+   
+    
+/*xlarge*/@media only screen and (min-width: 90em) { 
+    .p-overview {
+    padding: 2em 10em 2em 10em;
+}  
+}
     
 /*
 white

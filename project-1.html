@@ -11,29 +11,40 @@ layout: projects
         <dd>{{dino.size}}</dd>
         </dl>
     {% endfor %} -->   
-    
-<!-- Main Image -->  
+      
+<!-- Main Image --> 
+    <div class="p-main-img" alt="Image Description">
+       
+    </div>    
     
 <main id="main">
-
-<!-- Overview -->  
-    <div class="p-overview text-center">
-        {% for projectone in site.data.projectone %}
-         <h2 class="push-0">{{projectone.title}}</h2>
-            <p>{{projectone.blurb}}</p>
-        {% endfor %}
-    </div><!-- overview -->
 
 <!-- Portfolio -->  
     
         <div class="grid pad-t">
-            <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-2 island">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
                 <div class="embed embed--4by3">
                     <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
                 </div><!-- embed -->
             </div><!-- unit -->
             
-             <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for projectone in site.data.projectone %}
+                <h2 class="push-0 p-pad">{{projectone.title}}</h2>
+                <p>{{projectone.blurb}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit--> 
+            
+        <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb gutter">
                 <h2 class="push-0 p-pad">Concept</h2>
                 {% for projectone in site.data.projectone %}
@@ -42,13 +53,13 @@ layout: projects
             </div><!--blurb--> 
         </div> <!--unit-->
 
-             <div class="unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-2-3 island">
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
                 <div class="embed embed--4by3">
                     <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
                 </div><!-- embed -->
             </div><!-- unit -->
             
-             <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb gutter">
                 <h2 class="push-0 p-pad p-blurb">Execution</h2>
                 {% for projectone in site.data.projectone %}
@@ -57,6 +68,21 @@ layout: projects
             </div><!--blurb--> 
         </div> <!--unit-->
 
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                <h2 class="push-0 p-pad p-blurb">Execution</h2>
+                {% for projectone in site.data.projectone %}
+                <p>{{projectone.execution}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
         </div><!-- grid -->
     </div><!-- portfolio -->
 </main>    
