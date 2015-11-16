@@ -220,9 +220,9 @@ a:focus {
 
 .bio {
     background-color: #B8CED0;
-    padding: 6em 2em;
+    padding: 3.5em 2em;
     height:19em;
-    color: 
+    color: black;
 }
 
 .bio-img {
@@ -369,6 +369,13 @@ a:focus {
 }
       
 /*small*/@media only screen and (min-width: 25em) {
+    
+.bio {
+    background-color: #B8CED0;
+    padding: 5em 2em;
+    height:19em;
+    color: black;
+}
 
 /*medium*/@media only screen and (min-width: 38em) {
 .wordmark {
