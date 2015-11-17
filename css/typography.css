@@ -7,6 +7,7 @@ html {
 
 h1, h2, h3 {
     font-family:'fira-sans-2','Roboto', sans-serif;
+    font-weight: 100;
 }
 
 h1, h2 {
