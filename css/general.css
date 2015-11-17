@@ -25,7 +25,10 @@ a:focus {
 
 .banner {
     height: 30em;
+    background-image: url(../artwork/photo2.jpg);
+    background-size: 100%;
     background-color: #58595B;
+    
 }
 
 .wordmark {
@@ -421,8 +424,10 @@ a:focus {
 } 
     
 .bio-img {
-    background-image: url(../artwork/notch.svg);
-    background-size: 1em;
+    background-image: url(../artwork/notch.svg), url(../artwork/photo2.jpg);
+    background-size: 1em, 400%;
+    margin: 0;
+    padding: 0;
     background-position: center left;
     background-repeat: no-repeat;
 }     
