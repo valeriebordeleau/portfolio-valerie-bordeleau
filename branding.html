@@ -1,5 +1,6 @@
 ---
 layout: projects
+title: Personal Branding
 ---
 <!-- jekyll sample
 {% for dino in site.data.dinos %}
@@ -30,9 +31,9 @@ layout: projects
             
              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb gutter">
-                {% for everydayessentials in site.data.everydayessentials %}
-                <h2 class="push-0 p-pad">{{everydayessentials.title}}</h2>
-                <p>{{everydayessentials.blurb1}}</p>
+                {% for branding in site.data.branding %}
+                <h2 class="push-0 p-pad">{{branding.title}}</h2>
+                <p>{{branding.blurb1}}</p>
                 {% endfor %}
             </div><!--blurb--> 
         </div> <!--unit--> 
@@ -43,24 +44,43 @@ layout: projects
                     <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
                 </div><!-- embed -->
             </div><!-- unit -->
-           
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter p-pad">
+                {% for branding in site.data.branding %}
+                <p>{{branding.blurb2}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter p-pad">
+                {% for branding in site.data.branding %}
+                <p>{{branding.blurb3}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <div class="p-text-blurb gutter">
-                {% for everydayessentials in site.data.everydayessentials %}
-                <p>{{everydayessentials.blurb2}}</p>
+            <div class="p-text-blurb gutter p-pad">
+                {% for branding in site.data.branding %}
+                <p>{{branding.blurb4}}</p>
                 {% endfor %}
             </div><!--blurb--> 
-        </div> <!--unit--> 
+        </div> <!--unit-->
             
-        <div class="grid pad-t">
-           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
-                <div class="embed embed--4by3">
-                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
-                </div><!-- embed -->
-            </div><!-- unit -->
-            
-
-
         </div><!-- grid -->
     </div><!-- portfolio -->
 </main>    

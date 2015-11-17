@@ -43,24 +43,43 @@ layout: projects
                     <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
                 </div><!-- embed -->
             </div><!-- unit -->
-           
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <div class="p-text-blurb gutter">
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter p-pad">
                 {% for hotel in site.data.hotel %}
                 <p>{{hotel.blurb2}}</p>
                 {% endfor %}
             </div><!--blurb--> 
-        </div> <!--unit--> 
-            
-        <div class="grid pad-t">
-           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+        </div> <!--unit-->
+
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
                 <div class="embed embed--4by3">
                     <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
                 </div><!-- embed -->
             </div><!-- unit -->
             
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter p-pad">
+                {% for hotel in site.data.hotel %}
+                <p>{{hotel.blurb3}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
 
-
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter p-pad">
+                {% for hotel in site.data.hotel %}
+                <p>{{hotel.blurb4}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
         </div><!-- grid -->
     </div><!-- portfolio -->
 </main>    

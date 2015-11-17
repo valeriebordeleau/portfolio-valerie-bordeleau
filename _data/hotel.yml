@@ -1,5 +1,5 @@
-- title: PERBEAT
-  blurb1: This companion android application works with wearable tech to gather information about user’s daily stressors by monitoring their blood pressure. 
-  blurb2:  Users land on a graph, with an overview of their blood pressure over time. From this from this screen users can sort new BPM spikes into custom categories to make more informed choices.
-  blurb3: By tapping on the icon for a new blood pressure spike users are taken to the Categories Tab. Here users select a category for the spike to be sorted under or create new custom colour coated categories.
-  blurb4: Under the Patterns tab, users can get more information about the number of blood pressure spikes they had per category in a given time frame. Users can also use this tab to find out more information about one specific category.
+- title: Hideaway Hotel
+  blurb1: This android application contributes to the Global Goal of decreasing domestic violence. This application helps those in crisis locate a free hotel room where they can hide away for a few days while they sort out long term living arrangements
+  blurb2: The application opens to a map with a listing of nearby hotels who participate in the program. Tapping on a listing allows the user to start making a booking. A portion of patron’s booking fees pay for the rooms in this program.
+  blurb3: This application is designed to be used quickly in emergency situations. For the user’s safety very limited information is required to book a room. They can anonymously reserve a room using a code word.
+  blurb4: The user can always review their room reservation and access the hotel's contact information at anytime. If there are any special considerations, such as extra beds for dependents the business can be called.

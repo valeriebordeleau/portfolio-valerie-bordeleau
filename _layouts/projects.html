@@ -36,8 +36,8 @@
   <!-- The image should be 120x120 pixels in dimension -->
   <meta name="twitter:image" content="http://fullurl.com/to-this/image-sample-to-fill-later.jpg">
 
-<!-- Search Engine Stuff -->     
-    <title>"Project Title" Valerie Bordeleau Graphic Design · Ottawa, ON</title>
+<!-- Search Engine Stuff -->   
+    <title>{% if page.title %}{{page.title}} · {% endif %}Valerie Bordeleau Graphic Design · Ottawa, ON{% if page.titleAfter %} · {{page.titleAfter}}{% endif %}</title>
     <meta name="description" content="This blurb will be about the project on this page. It will breifly summarize in the first blurb of this page. Unless it's short, then I might c and p that">
 </head>
     
