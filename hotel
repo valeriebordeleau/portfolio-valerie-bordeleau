@@ -30,9 +30,24 @@ layout: projects
             
              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
             <div class="p-text-blurb gutter">
-                {% for hydro in site.data.hydro %}
-                <h2 class="push-0 p-pad">{{hydro.title}}</h2>
-                <p>{{hydro.blurb1}}</p>
+                {% for everydayessentials in site.data.everydayessentials %}
+                <h2 class="push-0 p-pad">{{everydayessentials.title}}</h2>
+                <p>{{everydayessentials.blurb1}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit--> 
+            
+        <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/temp.jpg" class="main-p-img embed__item" alt="Image Description">
+                </div><!-- embed -->
+            </div><!-- unit -->
+           
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for everydayessentials in site.data.everydayessentials %}
+                <p>{{everydayessentials.blurb2}}</p>
                 {% endfor %}
             </div><!--blurb--> 
         </div> <!--unit--> 
@@ -44,13 +59,7 @@ layout: projects
                 </div><!-- embed -->
             </div><!-- unit -->
             
-             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
-            <div class="p-text-blurb gutter p-pad">
-                {% for hydro in site.data.hydro %}
-                <p>{{hydro.blurb2}}</p>
-                {% endfor %}
-            </div><!--blurb--> 
-        </div> <!--unit-->
+
 
         </div><!-- grid -->
     </div><!-- portfolio -->

@@ -263,7 +263,8 @@ h1, .exa {
 
 h2, .peta {
   font-size: 1.6018rem;
-  line-height: 1.7480;
+  line-height: 1.6rem;
+  /* line-height: 1.7480; */
 }
 
 h3, .tera {
