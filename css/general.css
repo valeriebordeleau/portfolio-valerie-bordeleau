@@ -24,7 +24,7 @@ a:focus {
 /* Banner */ 
 
 .banner {
-    height: 30em;
+    height: 50em;
     background-image: url(../artwork/background2.jpg);
     background-size: 200%;
     background-position: center center;
