@@ -24,7 +24,7 @@ a:focus {
 /* Banner */ 
 
 .banner {
-    height: 50em;
+    height: 25em;
     background-image: url(../artwork/background3.jpg);
     background-size: 200%;
     background-position: center center;
@@ -361,13 +361,6 @@ a:focus {
 /* PROJECT STYLES END */
 
 
-/*ios vh page support feature */ 
-@supports(min-height:100vh) {
-.banner {
-    height: 100vh;
-    }
-}
-
 /*test*/
 
 /*before small but not quite extra small, only here so that the e-mail doesn’t make an ugly white bar on unrealistically tiny screens*/@media only screen and (min-width: 22em) {
@@ -388,7 +381,7 @@ a:focus {
 /*small*/@media only screen and (min-width: 25em) {
   
 .banner {
-    height: 70vh;
+    height: 35em;
     background-size: 200%;
     }
     
@@ -402,7 +395,7 @@ a:focus {
     
 /*medium*/@media only screen and (min-width: 40em) {
 .banner {
-    height: 70vh;
+    height: 35em;
     background-size: 150%;
     }
     
@@ -471,7 +464,7 @@ a:focus {
 /*large*/@media only screen and (min-width: 75em) {
 
 .banner {
-    height: 70vh;
+    height: 40em;
     background-size: 100%;
     }    
     
