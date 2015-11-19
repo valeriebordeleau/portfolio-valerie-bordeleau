@@ -24,8 +24,8 @@ a:focus {
 /* Banner */ 
 
 .banner {
-    height: 80em;
-    background-image: url(../artwork/background2.jpg);
+    height: 50em;
+    background-image: url(../artwork/background3.jpg);
     background-size: 200%;
     background-position: center center;
     background-color: #58595B;
@@ -158,7 +158,6 @@ a:focus {
 .nav-t2-item {
     display: block;
     padding: 1em 0em 1em 0;
-    margin:#08262C;
     text-decoration: none;
     color: white;
     background-color: transparent;
@@ -365,7 +364,7 @@ a:focus {
 /*ios vh page support feature */ 
 @supports(min-height:100vh) {
 .banner {
-    height: 58vh;
+    height: 70vh;
     }
 }
 
@@ -396,8 +395,6 @@ a:focus {
     height:19em;
     color: black;
 }
-
-
     
 /*medium*/@media only screen and (min-width: 40em) {
 .banner {
@@ -498,14 +495,13 @@ a:focus {
 
 .p-main-img {
     height: 30em;
-}
-  
-/*Projects*/    
+}    
 
 .p-overview {
     padding: 2em 4em 2em 4em;
 }    
-   
+ 
+}
     
 /*xlarge*/@media only screen and (min-width: 90em) { 
     .p-overview {
