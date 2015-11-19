@@ -364,7 +364,7 @@ a:focus {
 /*ios vh page support feature */ 
 @supports(min-height:100vh) {
 .banner {
-    height: 70vh;
+    height: 100vh;
     }
 }
 
