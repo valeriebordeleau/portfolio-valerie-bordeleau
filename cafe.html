@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Café Craze Broadcast Package
+title: Caffeinated Quest Broadcast Package
 next: /narnia
 previous: /hydro
 ---
@@ -50,10 +50,20 @@ previous: /hydro
             </div><!--blurb--> 
         </div> <!--unit-->
             
+       <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">    
+            <div class="embed embed--16by9">
+                <iframe class="embed__item" src="https://player.vimeo.com/video/146919394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen alt="Cafeinated Quest Broadcast Pacakage">          </iframe>
+            </div>
+            </div>
+            
+              <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 p-pad">
+            <div class="p-text-blurb gutter">
+                {% for cafe in site.data.cafe %}
+                <p>{{cafe.blurb3}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
         </div><!-- grid -->
     </div><!-- portfolio -->
-<div class="embed embed--16by9">
-    <iframe class="embed__item" src="https://player.vimeo.com/video/146919394" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
-
 </main>    
