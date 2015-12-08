@@ -297,6 +297,7 @@ a:focus {
 .cb-footer {
     color: white; 
     background-color:#303030;
+    background-image: url(../artwork/bkg.png);
 }
 
 /* PROJECT STYLES */
