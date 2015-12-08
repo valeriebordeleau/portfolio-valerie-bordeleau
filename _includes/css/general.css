@@ -25,7 +25,7 @@ a:focus {
 
 .banner {
     height: 25em;
-    background-image: url(../artwork/background3.jpg);
+    background-image: url(../artwork/bkg.jpg);
     background-size: 200%;
     background-position: center center;
     background-color: #58595B;
@@ -207,7 +207,7 @@ a:focus {
 }
 
 .fourofourblurb {
-    background-image: url(../artwork/background3.jpg);
+    background-image: url(../artwork/bkg.jpg);
     background-size: 210%;
     background-position: center center;
     color: white;
