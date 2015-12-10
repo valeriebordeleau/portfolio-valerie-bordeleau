@@ -207,11 +207,8 @@ a:focus {
 }
 
 .fourofourblurb {
-    background-image: url(../artwork/bkg.jpg);
-    background-size: 210%;
-    background-position: center center;
     color: white;
-    background-color: rgba(184, 208, 206, 1);
+    background-color: #333E48;
     padding: 12em 2em;
 }
 
