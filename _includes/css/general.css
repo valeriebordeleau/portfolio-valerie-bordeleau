@@ -23,6 +23,10 @@ a:focus {
 
 /* Banner */ 
 
+.copyrights {
+    opacity: .25;
+}
+
 .banner {
     height: 20em;
     background-image: url(../artwork/bkg.jpg);
