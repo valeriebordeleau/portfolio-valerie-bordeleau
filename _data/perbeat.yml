@@ -1,5 +1,7 @@
-- title: PERBEAT
-  blurb1: This companion android application works with wearable tech to gather information about user’s daily stressors by monitoring their blood pressure. 
-  blurb2:  Users land on a graph, with an overview of their blood pressure over time. From this from this screen users can sort new BPM spikes into custom categories to make more informed choices.
-  blurb3: By tapping on the icon for a new blood pressure spike users are taken to the Categories Tab. Here users select a category for the spike to be sorted under or create new custom colour coated categories.
-  blurb4: Under the Patterns tab, users can get more information about the number of blood pressure spikes they had per category in a given time frame. Users can also use this tab to find out more information about one specific category.
+- title: Perbeat
+  blurb1: The goal of this project was to create an android application to help people identify and manage their daily stressors. The main challenge of this project was that data from a wearable piece of technology was required. 
+  blurb2: I began by speaking with peers who dealt with stress and identifying the pain points. From there I sketched out possible app flows and screens.
+  blurb3: This app's main feature is a daily graph which shows users their current blood pressure, as well as their blood pressure overtime. This graph alerts users to new spikes in their blood pressure, which they can sort into custom categories.
+  blurb4: Users can create custom category names, which are automatically colour coated to help them identify trends.
+  blurb5: Users can get more information about how often each of their stressors affects them under the Patterns Tab. This allows users to identify and address their stressors.
+  
