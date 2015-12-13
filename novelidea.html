@@ -1,0 +1,93 @@
+---
+layout: projects
+title: A Novel Idea
+next: /hotel
+previous: /narnia
+---
+<!-- jekyll sample
+{% for dino in site.data.dinos %}
+    <h3>{{dino.name}}</h3>
+    <dl>
+        <dt>Diet</dt>
+        <dd>{{dino.diet}}</dd>
+        <dt>Size</dt>
+        <dd>{{dino.size}}</dd>
+        </dl>
+    {% endfor %} -->   
+      
+<!-- Main Image --> 
+         <div class="p-main-img-ee" alt="Image Description">
+       
+    </div>    
+    
+<main id="main">
+
+
+<!-- Portfolio -->  
+    
+        <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/novel-1.jpg" class="main-p-img embed__item" alt="Overview of Branding">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for novelidea in site.data.novelidea %}
+                <h2 class="push-0 p-pad">{{novelidea.title}}</h2>
+                <p>{{novelidea.blurb1}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit--> 
+            
+        <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/novel-2.jpg" class="main-p-img embed__item" alt="Everyday Essentials, Packaging Redesign, Package front view">
+                </div><!-- embed -->
+            </div><!-- unit -->
+           
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for novelidea in site.data.novelidea %}
+                <p>{{novelidea.blurb2}}</p>
+                {% endfor %}
+                    </div><!--blurb--> 
+                </div> <!--unit--> 
+            </div><!-- grid -->
+            
+            <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/pkgA2.jpg" class="main-p-img embed__item" alt="Everyday Essentials, Packaging Redesign, Package front view">
+                </div><!-- embed -->
+            </div><!-- unit -->
+           
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for novelidea in site.data.novelidea %}
+                <p>{{novelidea.blurb3}}</p>
+                {% endfor %}
+                    </div><!--blurb--> 
+                </div> <!--unit--> 
+            </div><!-- grid -->
+            
+            <div class="grid pad-t">
+           <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-3-4 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/pkgA2.jpg" class="main-p-img embed__item" alt="Everyday Essentials, Packaging Redesign, Package front view">
+                </div><!-- embed -->
+            </div><!-- unit -->
+           
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4">
+            <div class="p-text-blurb gutter">
+                {% for novelidea in site.data.novelidea %}
+                <p>{{novelidea.blurb4}}</p>
+                {% endfor %}
+                    </div><!--blurb--> 
+                </div> <!--unit--> 
+            </div><!-- grid -->
+            
+    </div><!-- portfolio -->
+</main>    
