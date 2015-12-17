@@ -188,7 +188,7 @@ a:focus {
 .intro {
     background-color: rgba(184, 208, 206, 1);
     color:#333E48;
-    padding: 6em 2em;
+    padding: 3em 2em;
 }
 
 /* 404 */
@@ -529,7 +529,7 @@ a:focus {
 }
     
 .intro {
-    padding: 10em 16em;
+    padding: 6em 16em;
 }
     
 .p-text-blurb {
