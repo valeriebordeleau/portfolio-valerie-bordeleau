@@ -567,7 +567,10 @@ a:focus {
 /*xlarge*/@media only screen and (min-width: 90em) { 
     .p-overview {
     padding: 2em 10em 2em 10em;
-}  
+    }
+    .banner {
+        height: 50em;
+    }
 }
    
 
