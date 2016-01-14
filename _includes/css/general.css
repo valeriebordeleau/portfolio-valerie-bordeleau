@@ -274,6 +274,9 @@ a:focus {
 }
 
 
+
+
+/* Social Media styles */
 .icons {
     font-size: 2.5em;
     color: white;
@@ -298,17 +301,6 @@ a:focus {
     display: inline-block;
 }
 
-
-/* Social Media styles */
-.social {
-    width:50px;
-    padding: 0 .25em 0 .25em;
-    text-align: center;
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-}
- 
 .st1 {
     fill:white;
     -webkit-transition: all 300ms ease-out; 
@@ -409,7 +401,7 @@ a:focus {
 }
 
 .previous {
-    height: 58px;
+    font-size: 3em;
     fill:white;
     position: absolute;
     top: 12px;
@@ -424,7 +416,7 @@ a:focus {
 }
 
 .next {
-    height: 58px;
+    font-size: 3em;
     fill:white;
     position: absolute;
     top: 12px;
