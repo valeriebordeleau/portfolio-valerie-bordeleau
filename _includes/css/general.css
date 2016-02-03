@@ -43,7 +43,9 @@ a:focus {
 .wordmark {
     fill: white;
     margin: 3em 0em 0em 0em;
-    width: 50%;
+    width: 7em;
+    padding: 0;
+    overflow: visible;
      -webkit-transition: all 300ms ease-out; 
     transition: all 250ms ease-out;
 }
