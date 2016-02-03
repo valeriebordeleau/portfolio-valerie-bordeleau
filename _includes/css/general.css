@@ -197,7 +197,13 @@ a:focus {
 .intro {
     background-color: rgba(184, 208, 206, 1);
     color:#333E48;
-    padding: 3em 2em;
+    padding: 12em 2em;
+}
+
+.about {
+    background-color: rgba(184, 208, 206, .1);
+    color:#333E48;
+    padding: 12em 2em;
 }
 
 /* 404 */
@@ -234,12 +240,11 @@ a:focus {
 .portfolio {
     background-color: rgba(184, 208, 206, .1);
     color: rgba(8, 38, 44, 1);
-    padding: 8em 0em 0em;
+    padding: 12em 0em 0em 0em;
     fill:#B8CED0;
 }
 
 .img-hover {
-    padding: 0;
     margin: 0;
     opacity: 1;
     -webkit-transition: all 300ms ease-out; 
@@ -563,7 +568,11 @@ a:focus {
 }
     
 .intro {
-    padding: 6em 16em;
+    padding: 10em 2em;
+}
+    
+ .about {
+    padding: 10em 2em;
 }
     
 .p-text-blurb {
