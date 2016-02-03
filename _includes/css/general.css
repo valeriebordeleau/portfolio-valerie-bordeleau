@@ -285,7 +285,6 @@ a:focus {
 .icons {
     font-size: 2.5em;
     color: white;
-    font-weight: bold;
     text-decoration: none;
     margin-top: .3em;
     margin-left:.25em;
@@ -302,7 +301,7 @@ a:focus {
 .icons:hover,
 .icons:active,
 .icons:focus{
-    color:#333E48;
+     color: #B8CED0;
     
 }
 
@@ -313,8 +312,6 @@ a:focus {
 .iconset:hover,
 .iconset:active,
 .iconset:focus{
-    border-radius: .75em;
-    background-color: #B8CED0;
     -webkit-transition: all 500ms ease-out; 
     transition: all 500ms ease-out;
 }
