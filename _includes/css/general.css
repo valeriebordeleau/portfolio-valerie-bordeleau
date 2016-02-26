@@ -259,11 +259,9 @@ a:focus {
 .pop-up {
     display: none;
 }
-
 .pop-up:target {
     display: block;
 }
-
 */
 
 /* Bio Styles */
