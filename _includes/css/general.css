@@ -8,6 +8,10 @@ a:focus {
     outline:3px solid #58595B;  
 }
 
+.name {
+    font-size: 30em;
+}
+
 .skip-links {
     margin: 0;
     padding: 0;
