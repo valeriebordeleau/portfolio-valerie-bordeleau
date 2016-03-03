@@ -353,7 +353,7 @@ a:focus {
 .cb-footer {
     color: white; 
     background-color:#303030;
-    /*background-image: url(../artwork/bkg.png)*/;
+    background-image: url(../artwork/bkg.png);
 }
 
 /* PROJECT STYLES */
@@ -395,7 +395,7 @@ a:focus {
 .p-nav-bar {
     background-color:#303030;
     height: 80px;  
-    /*background-image: url(../artwork/bkg.png);*/
+    background-image: url(../artwork/bkg.png);
 }
 
 .close {
