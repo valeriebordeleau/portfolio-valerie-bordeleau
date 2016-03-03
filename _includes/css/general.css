@@ -10,6 +10,7 @@ a:focus {
 
 .name {
     font-size: 30em;
+    line-height: 0px;
 }
 
 .skip-links {
