@@ -498,7 +498,7 @@ a:focus {
     }
     
     
-.close {
+.close svg{
     width:160px;
     height: 58px;
     fill:white;
@@ -510,7 +510,7 @@ a:focus {
     transition: all 300ms ease-out;
 }
 
-.close:hover {
+.close:hover svg {
     fill:#B8CED0;   
 }     
     
