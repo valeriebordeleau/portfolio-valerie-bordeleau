@@ -65,13 +65,23 @@ a:focus {
     font-size: 2.5em;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
-   
+    border-radius: 100%;  
+}
+
+.arrow i {
+    vertical-align: -50;
 }
 
 .arrow:hover,
 .arrow:active,
 .arrow:focus {
-    color:#B8CED0;
+    color:#DBD9D6;
+    background-color: #C86C61;
+    padding-bottom:0px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    border-radius: 100%;
 }
 
 
@@ -103,19 +113,33 @@ a:focus {
 }
 
 .toggle {
-    padding-top: .25em;
+    padding-top: .5em;
     padding-left: .5em;
-    padding-bottom: 0em;
+    padding-bottom: .25em;
     display: block;
     font-size: 2.5em;
     opacity: 1;
-    color: white;
      -webkit-transition: all 300ms linear;
     transition: all 300ms linear;
 }
 
-.toggle:hover {
-    color: #B8CED0;
+.toggle i {
+    color: #071C2C;
+    font-size: .9em;
+    padding-top: 17px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+     -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+
+.toggle i:hover,
+.toggle i:active,
+.toggle i:focus{
+    color: #DBD9D6;
+    background-color:#C86C61;
 }
 
 .toggle-check {
@@ -129,7 +153,7 @@ a:focus {
     margin: 0px;
     padding: 0;
     box-shadow: 0px 0px 2px 0px rgba(35, 31, 32, 0.18);
-    background-color:#303030;
+    background-color:rgba(219, 217, 214, 0.3);
     position: relative;
     z-index: 1000;
     max-height: 0em;
@@ -142,13 +166,13 @@ a:focus {
 }
 
 .nav-bar {
-    color:#DBD9D6;
+    background-color:rgba(219, 217, 214, 0.3);
     margin: 0px;
     padding-bottom: 1em;
 }
 
 .nav-bar-s {
-    background-color:#303030;
+    background-color:rgba(219, 217, 214, 0.3);
     box-shadow: 0px 0px 20px 2px rgba(35, 31, 32, 0.18);
     margin: 0;
     padding: 0;
@@ -157,8 +181,7 @@ a:focus {
 .nav-t-item {
     display: block;
     text-decoration: none;
-    color: #303030;
-    background-color: transparent;
+    color: #111820;
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
@@ -169,14 +192,18 @@ a:focus {
 }
 
 .nav-t-item:hover {
-    color: #006E62;
+    color: white;
+    background-color: #C86C61;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
 }
 
 .nav-t2-item {
     display: block;
     padding: 1em 0em 1em 0;
     text-decoration: none;
-    color: white;
+    color: #111820;
     background-color: transparent;
     list-style-type: none;
     margin: 0;
@@ -186,7 +213,7 @@ a:focus {
 }
 
 .nav-t2-item:hover {
-    color: rgba(51, 62, 72, 1);
+     color: #111820;
     font-weight: 400;
     background-color: #B8CED0;
 }
@@ -200,7 +227,8 @@ a:focus {
 
 .intro {
     color:#303030;
-    padding: 6em;
+    padding: 2em;
+    background-color: #B8CED0;
 
 }
 
@@ -242,11 +270,13 @@ a:focus {
 /* Portfolio Styles */
 
 .portfolio {
+    padding-top: 6em;
     color: rgba(8, 38, 44, 1);
     fill:#B8CED0;
 }
 
 .img-hover {
+    border:2px solid #DBD9D6;
     margin: 0;
     opacity: 1;
     -webkit-transition: all 300ms ease-out; 
@@ -589,7 +619,7 @@ a:focus {
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 35em;
+        height: 30em;
     }
 }
    
@@ -599,7 +629,7 @@ a:focus {
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 50em;
+        height: 35em;
     }
 }
 
