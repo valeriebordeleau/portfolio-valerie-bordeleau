@@ -6,8 +6,7 @@
 <style type="text/css">
 	.st0{fill:none;}
 	.st1{fill:#FFFFFF;}
-	.st2{fill:#071C2C;}
-	.st3{opacity:5.000000e-02;fill:url(#SVGID_1_);}
+	.st2{opacity:5.000000e-02;fill:url(#SVGID_1_);}
 </style>
 <pattern  y="800" width="288.3" height="343.5" patternUnits="userSpaceOnUse" id="New_Pattern_6" viewBox="43.8 -406.2 288.3 343.5" style="overflow:visible;">
 	<g>
@@ -324,9 +323,8 @@
 	</g>
 </pattern>
 <g>
-	<rect x="0" y="0" class="st2" width="1280" height="800"/>
 	<pattern  id="SVGID_1_" xlink:href="#New_Pattern_6" patternTransform="matrix(1 0 0 1 173.5262 26.2065)">
 	</pattern>
-	<rect x="0" y="0" class="st3" width="1280" height="800"/>
+	<rect x="0" y="0" class="st2" width="1280" height="800"/>
 </g>
 </svg>

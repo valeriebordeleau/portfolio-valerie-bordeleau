@@ -37,10 +37,9 @@ a:focus {
 }
 
 .banner {
-    margin: 1.13em;
-    height: 20em;
+    height: 22em;
     background-image: url(../artwork/test-bkg.svg);
-    background-size: 400%;
+    background-size: 200%;
     background-position: center center;
     background-color: #58595B;
     
@@ -143,7 +142,7 @@ a:focus {
 }
 
 .nav-bar {
-    color:#303030;
+    color:#DBD9D6;
     margin: 0px;
     padding-bottom: 1em;
 }
@@ -201,6 +200,8 @@ a:focus {
 
 .intro {
     color:#303030;
+    padding: 6em;
+
 }
 
 .about {
@@ -258,6 +259,10 @@ a:focus {
 
 .piece{
     padding:1.13em;
+}
+
+.piece-wrap{
+    padding-bottom: 6em;
 }
 
 .caption{
@@ -474,7 +479,7 @@ a:focus {
 }    
     
 .banner {
-    height: 30em;
+    height: 28em;
     background-size: 200%;
     }
     
@@ -599,24 +604,6 @@ a:focus {
 }
 
 /*
-white
-light grey = #BCBEC0
-dark grey = #58595B
-black = #000000
-*/
-
-/*
 Brand Colours
-Brand Colours
-white =#FFFFFF
-med grey blue = #B8CED0
-rgba(126, 168, 173)
-pale grey blue = #B8CED0
-rgba(184, 208, 206)
-dark grey blue = #333E48
-rgba(51, 62, 72,)
-med grey = #6B6B6B
-rgba(107,107,107,1)
-drk grey = #303030
-rgba(48,48,48,1)
+grey: #DBD9D6
 */
