@@ -187,6 +187,9 @@ a:focus {
     margin: 0;
     font-size: 0.8889rem;
     line-height: 1.4625;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 10px;
     text-transform: uppercase;
      -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
@@ -195,9 +198,6 @@ a:focus {
 .nav-t-item:hover {
     color: white;
     background-color: #C86C61;
-    padding-left: 30px;
-    padding-right: 30px;
-    border-radius: 100px;
 }
 
 .nav-t2-item {
@@ -372,9 +372,9 @@ a:focus {
 }
 
 .cb-footer {
-    color: white; 
-    background-color:#303030;
-    background-image: url(../artwork/bkg.png);
+    color: #111820; 
+    background-image: url(../artwork/test-pattern.svg);
+    background-color:rgba(219, 217, 214, .8);
 }
 
 /* PROJECT STYLES */
@@ -500,8 +500,15 @@ a:focus {
 }
 }
     
-/*medium*/@media only screen and (min-width: 40em) {
-  
+/*medium*/@media only screen and (min-width: 40em) {    
+
+.nav-t-item:hover {
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 100px;
+}    
+    
+    
 .fourofourblurb {
     background-size: 120%;
     padding: 10em 6em;
