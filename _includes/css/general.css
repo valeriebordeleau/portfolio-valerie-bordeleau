@@ -390,7 +390,8 @@ a:focus {
     padding-top: 1em;
     color: #111820; 
     background-image: url(../artwork/test-pattern.svg);
-    background-color:rgba(219, 217, 214, .4);
+    background-size: 100%;
+    background-color:rgba(219, 217, 214, .65);
 }
 
 /* PROJECT STYLES */
@@ -430,7 +431,7 @@ a:focus {
 /* Project Nav */
 
 .p-nav-bar {
-    background-color:rgba(219, 217, 214, 0.5);
+    background-color:rgba(219, 217, 214, 0.65);
     height: 80px;  
     background-image: url(../artwork/test-pattern.svg);
     background-size: 100%;
