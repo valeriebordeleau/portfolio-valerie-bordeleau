@@ -540,6 +540,14 @@ a:focus {
     
 /*medium*/@media only screen and (min-width: 40em) {    
 
+.p-nav-bar {
+    background-size: 50%;
+}    
+    
+.cb-footer {
+    background-size: 50%;
+}    
+    
 .nav-t-item:hover {
     padding-left: 30px;
     padding-right: 30px;
