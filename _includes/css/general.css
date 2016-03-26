@@ -555,24 +555,7 @@ a:focus {
     height: 30em;
     background-size: 100%;
     }
-    
-    
-.close svg{
-    width:160px;
-    height: 58px;
-    fill:white;
-    position: absolute;
-    top: 12px;
-    left: calc(50% - 80px);
-    opacity: 1;
-    -webkit-transition: all 300ms ease-out; 
-    transition: all 300ms ease-out;
-}
-
-.close:hover svg {
-    fill:#B8CED0;   
-}     
-    
+        
     
 .wordmark {
     width: 45%;
