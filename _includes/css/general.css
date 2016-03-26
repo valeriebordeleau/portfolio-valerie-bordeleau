@@ -440,7 +440,7 @@ a:focus {
 .close svg {
     height: 58px;
     width: 135px;
-    fill:rgba(7,28, 44, .75);
+    fill:#111820;
     position: absolute;
     top: 10px;
     left: calc(50% - 67.5px);
