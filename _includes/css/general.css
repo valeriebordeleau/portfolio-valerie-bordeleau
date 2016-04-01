@@ -38,7 +38,7 @@ a:focus {
 
 .banner {
     height: 24em;
-    background-image: url(../artwork/test-bkg.svg);
+    background-image: url(../artwork/test-bkg.jpg);
     background-size: 150%;
     background-position: center center;
     background-color: #58595B;
