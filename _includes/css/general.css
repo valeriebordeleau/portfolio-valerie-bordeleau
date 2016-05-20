@@ -392,7 +392,6 @@ a:focus {
 .cb-footer {
     padding-top: 1em;
     color: #111820; 
-    background-image: url(../artwork/pattern-white.svg);
     background-size: 60%;
     background-color:rgba(219, 217, 214, .65);
 }
