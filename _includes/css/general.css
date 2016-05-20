@@ -32,16 +32,20 @@ a:focus {
 
 /* Banner */ 
 
+.max-width {
+    
+}
+
 .copyrights {
     opacity: .3;
 }
 
 .banner {
     height: 24em;
-    background-image: url(../artwork/test-bkg.jpg);
-    background-size: 150%;
+    background-image: url(../artwork/pattern.svg);
+    background-size: 30%;
     background-position: center center;
-    background-color: #58595B;
+    background-color: #071C2C;
     
 }
 
@@ -394,8 +398,8 @@ a:focus {
 .cb-footer {
     padding-top: 1em;
     color: #111820; 
-    background-image: url(../artwork/test-pattern.svg);
-    background-size: 100%;
+    background-image: url(../artwork/pattern-white.svg);
+    background-size: 60%;
     background-color:rgba(219, 217, 214, .65);
 }
 
@@ -438,8 +442,8 @@ a:focus {
 .p-nav-bar {
     background-color:rgba(219, 217, 214, 0.65);
     height: 80px;  
-    background-image: url(../artwork/test-pattern.svg);
-    background-size: 100%;
+    background-image: url(../artwork/pattern-white.svg);
+    background-size: 60%;
 }
 
 .close svg {
@@ -546,7 +550,14 @@ a:focus {
 }
       
 /*small*/@media only screen and (min-width: 25em) {
-  
+.p-nav-bar {
+    background-size: 35%;
+}     
+    
+.cb-footer {
+    background-size: 35%;
+}  
+    
 .fourofourblurb {
     background-size: 200%;
     padding: 12em 6em;
@@ -563,11 +574,11 @@ a:focus {
 /*medium*/@media only screen and (min-width: 40em) {    
 
 .p-nav-bar {
-    background-size: 50%;
+    background-size: 30%;
 }    
     
 .cb-footer {
-    background-size: 50%;
+    background-size: 30%;
 }     
     
 .fourofourblurb {
@@ -577,7 +588,7 @@ a:focus {
     
 .banner {
     height: 30em;
-    background-size: 100%;
+    background-size: 22%;
     }
         
     
@@ -619,10 +630,19 @@ a:focus {
 .intro {
     padding: 4em;
 }   
+
+.p-nav-bar {
+    background-size: 15%;
+}       
+    
+.cb-footer {
+    background-size: 15%;
+}     
+       
     
 .banner {
     height: 34em;
-    background-size: 100%;
+    background-size: 15%;
     }    
     
 .wordmark {
