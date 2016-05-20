@@ -31,13 +31,16 @@ a:focus {
 }
 
 /* Banner */ 
-
-.max-width {
+.center-portfolio {
     
 }
 
+.max-width {
+ 
+}
+
 .copyrights {
-    opacity: .3;
+    opacity: .5;
 }
 
 .banner {
@@ -76,13 +79,8 @@ a:focus {
 .arrow:hover,
 .arrow:active,
 .arrow:focus {
-    color:#DBD9D6;
-    background-color: #C86C61;
-    padding-bottom:0px;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 20px;
-    border-radius: 100%;
+    color: #C86C61;
+  
 }
 
 
@@ -321,11 +319,7 @@ a:focus {
 .iconset:hover,
 .iconset:active,
 .iconset:focus{
-    color: white;
-    background-color: #C86C61;
-    padding-top: 8px;
-    padding-left: 2px;
-    padding-right: 2px;
+    color: #C86C61;
     -webkit-transition: all 100ms ease-in-out; 
     transition: all 300ms ease-in-out;
 }
@@ -333,7 +327,7 @@ a:focus {
 .iconset i:hover,
 .iconset i:active,
 .iconset i:focus{
-    color: white;
+    color: #C86C61;
     -webkit-transition: all 100ms ease-in-out; 
     transition: all 300ms ease-in-out;
 }
@@ -491,8 +485,7 @@ a:focus {
 .arrow2:hover,
 .arrow2:active,
 .arrow2:focus {
-    color: white;
-    background-color: #C86C61;
+    color: #C86C61;
 }
 
 
@@ -514,8 +507,7 @@ a:focus {
 .arrow3:hover,
 .arrow3:active,
 .arrow3:focus {
-    color: white;
-    background-color: #C86C61;
+    color: #C86C61;
 }
 
 .next {
