@@ -40,6 +40,8 @@ a:focus {
 }
 
 .max-width {
+    max-width: 1200px;
+    display: inline-block;
  
 }
 
