@@ -143,12 +143,7 @@ a:focus {
 .toggle i:hover,
 .toggle i:active,
 .toggle i:focus{
-    padding-top: 18px;
-    padding-left: 14px;
-    padding-right: 12px;
-    padding-bottom: 4px;
-    color: #DBD9D6;
-    background-color:#C86C61;
+    color:#C86C61;
 }
 
 .toggle-check {
@@ -317,9 +312,12 @@ a:focus {
 
 /* Social Media styles */
 .iconset {
-    border-radius: 100%;
     padding: 0px;
     display: inline-block;
+}
+
+.iconset i {
+    font-size: 1.95em;
 }
 
 .iconset:hover,
@@ -340,7 +338,6 @@ a:focus {
     
     
 .icons {
-    font-size: 2.5em;
     color: #111820;
     text-decoration: none;
     margin-top: .3em;
