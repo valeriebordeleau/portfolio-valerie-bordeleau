@@ -10,6 +10,19 @@ h1, h2, h3 {
     font-weight: 300;
 }
 
+h2 {
+color:#4F4F4F;
+}
+
+h3, h4, h5 {
+color:#6D6E71;
+}
+
+p {
+color: #808285;
+font-size: .925rem;
+line-height: 1.7rem;
+}
 
 @media only screen and (min-width: 60em) {
 

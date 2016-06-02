@@ -42,7 +42,7 @@ a:focus {
 }
 
 .copyrights {
-    opacity: .5;
+    opacity: .65;
 }
 
 .banner {
@@ -181,7 +181,7 @@ a:focus {
 .nav-t-item {
     display: block;
     text-decoration: none;
-    color: #111820;
+    color:#6D6E71;
     list-style-type: none;
     margin: 0;
     font-size: 0.8889rem;
@@ -314,6 +314,7 @@ a:focus {
 
 .iconset i {
     font-size: 1.95em;
+    color:#6D6E71;
 }
 
 .iconset:hover,
@@ -351,7 +352,7 @@ a:focus {
 .email {
     font-size: 1em;
     text-decoration: none;
-    color:#111820;
+    color:#6D6E71;
     -webkit-transition: all 300ms ease-out; 
     transition: all 300ms ease-out;
 }
@@ -432,7 +433,7 @@ a:focus {
 .close svg {
     height: 58px;
     width: 135px;
-    fill:#111820;
+    color:#6D6E71;
     position: absolute;
     top: 10px;
     left: calc(50% - 67.5px);
@@ -458,7 +459,7 @@ a:focus {
 
 .arrow2 {
     text-decoration: none;
-    color: #111820;
+    color:#6D6E71;
     font-size: 2em;
     padding-bottom:45px;
     padding-right: 5px;
@@ -480,7 +481,7 @@ a:focus {
 
 .arrow3 {
     text-decoration: none;
-    color: #111820;
+    color:#6D6E71;
     font-size: 2em;
     padding-bottom:45px;
     padding-right: 15px;
@@ -608,6 +609,10 @@ a:focus {
 }
 
 /*large*/@media only screen and (min-width: 75em) {
+.island-l {
+  padding: 1.3rem;
+}
+    
 .intro {
     padding: 4em;
 }   
