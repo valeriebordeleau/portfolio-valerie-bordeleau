@@ -214,6 +214,7 @@ a:focus {
     display: block;
     padding: 1em 0em 1em 0;
     text-decoration: none;
+    opacity: .5;
     color: #111820;
     background-color: transparent;
     list-style-type: none;
@@ -224,7 +225,8 @@ a:focus {
 }
 
 .nav-t2-item:hover {
-    padding: 1.25em 0em 1.25em 0;
+    opacity: 1;
+    padding: 1em 0em 1em 0;
     color: #111820;
     font-weight: 400;
     background-color: #B8CED0;
