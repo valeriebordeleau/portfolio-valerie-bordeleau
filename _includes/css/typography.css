@@ -2,26 +2,29 @@
 
 html {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 h1, h2, h3 {
     font-family: 'Fira Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 100;
+    text-transform: uppercase;
 }
 
 h2 {
-color:#4F4F4F;
+color:;
 }
 
 h3, h4, h5 {
-color:#6D6E71;
+    color:#6D6E71;
+    text-transform: uppercase;
 }
 
 p {
-color: #808285;
-font-size: .925rem;
-line-height: 1.7rem;
+color: black;
+opacity: .7;
+font-size: .9rem;
+line-height: 1.6rem;
 }
 
 @media only screen and (min-width: 60em) {

@@ -427,6 +427,27 @@ a:focus {
     margin: 0;
 }
 
+.p-title{
+    padding-bottom: .2em;
+}
+
+.p-sub{
+    font-size: .9em;
+    line-height: 2em;
+    color: black;
+    font-weight: 100;
+    opacity: .4;
+}
+
+.p-sub-rev{
+    font-size: .9em;
+    line-height: 2em;
+    color: white;
+    font-weight: 100;
+    opacity: .4;
+}
+
+
 /* Project Nav */
 
 .p-nav-bar {
@@ -563,8 +584,20 @@ a:focus {
 }
 }
     
-/*medium*/@media only screen and (min-width: 40em) {    
+/*medium*/@media only screen and (min-width: 40em) {        
+    
+.p-s-colour{
+    background-color: #1b222a;
+    color: white;
+}  
+    
 
+.p-s-colour p{
+    color: white;
+    opacity: .7;
+}  
+  
+    
 .p-nav-bar {
     background-size: 30%;
 }    
@@ -618,8 +651,9 @@ a:focus {
     
 }
 
-/*large*/@media only screen and (min-width: 75em) {
-.island-l {
+/*large former 68*/@media only screen and (min-width: 60em) {
+    
+    .island-l {
   padding: 1.3rem;
 }
     
@@ -685,7 +719,14 @@ a:focus {
         height: 34em;
     }
 }
-   
+
+
+/*x.5large*/@media only screen and (min-width: 75em){
+    .p-s-colour-pad{
+        padding-top: 8em;
+    }
+    
+}
 
 /*xxlarge*/@media only screen and (min-width: 100em) { 
     .p-overview {
