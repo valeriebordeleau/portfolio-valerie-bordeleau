@@ -1,5 +1,11 @@
 /* Accessibilty */
 
+.bio {
+    background-color: #B8CED0;
+    padding: 4em 4em;
+    color: black;
+}
+
 .bkg {
     background-image: url(../../artwork/crapSample.svg);
     height: 20em;
@@ -579,12 +585,6 @@ a:focus {
     padding: 12em 6em;
 }
     
-.bio {
-    background-color: #B8CED0;
-    padding: 5em 2em;
-    height:19em;
-    color: black;
-}
 }
     
 /*medium*/@media only screen and (min-width: 40em) {        
@@ -633,25 +633,11 @@ a:focus {
     display: block;  
 } 
     
-.bio-img {
-    background-image: url(../artwork/notch.svg), url(../artwork/photo2.jpg);
-    background-size: 1em, 190%;
-    margin: 0;
-    padding: 0;
-    background-position: center left, center left;
-    background-repeat: no-repeat;
-}     
     
 .p-text-blurb {
     padding: 2em 1.13em 2em 0em;
 }
-
-.bio {
-    background-color: #B8CED0;
-    padding: 4em 2em;
-    height:22em;
-}    
-    
+       
 }
 
 /*large former 68*/@media only screen and (min-width: 60em) {
@@ -688,12 +674,6 @@ a:focus {
     
 .p-text-blurb {
     padding: 0em 1.3em 3em 1.3em;
-}
-    
-.bio {
-    background-color: #B8CED0;
-    padding: 5em 5em;
-    height:22em;
 }
     
 .p-pad {
