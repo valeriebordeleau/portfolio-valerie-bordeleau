@@ -1,8 +1,10 @@
 - title: Showtimes
 
   blurb1: The objective of this mock up and demo was to create a brief proof of concept for a digital sign which displays showtimes for special exhibitions at a nature museum. 
+  
+  blurb1.5:
 
-  blurb2: I began by referencing how theatrical signage handles content. I then sketched out various concepts for ways to layout the required data and created grayscale wireframes to test out possible layouts.
+  blurb2: I began by referencing how theatrical signage handles content. Then I sketched various concepts and created grayscale wireframes. I also considered what animations for content changes might look like.
   
   blurb3: From this point, I finalized the visual design. I utilized my own photography for this project, using it as a placeholder for featured content, such as exhibition artwork.
   
