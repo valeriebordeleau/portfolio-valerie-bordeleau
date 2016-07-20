@@ -164,8 +164,8 @@ a:focus {
     overflow: hidden;
     margin: 0px;
     padding: 0;
-    box-shadow: 0px 0px 2px 0px rgba(35, 31, 32, 0.18);
-    background-color:rgba(219, 217, 214, 0.2);
+    box-shadow: 0px 0px 2px 0px rgba(35, 31, 32, 0.1);
+    background-color:rgba(219, 217, 214, 0.125);
     position: relative;
     z-index: 1000;
     max-height: 0em;
@@ -179,13 +179,13 @@ a:focus {
 
 .nav-bar {
      box-shadow:0px 0px 5px 0px rgba(128,128,128, .4);
-    background-color:rgba(219, 217, 214, 0.25);
+    background-color:rgba(219, 217, 214, 0.125);
     margin: 0px;
     padding-bottom: 1em;
 }
 
 .nav-bar-s {
-    background-color:rgba(219, 217, 214, 0.25);
+    background-color:rgba(219, 217, 214, 0.125);
      box-shadow:0px 0px 5px 0px rgba(128,128,128, .4);
     margin: 0;
     padding: 0;
@@ -220,7 +220,7 @@ a:focus {
     display: block;
     padding: 1em 0em 1em 0;
     text-decoration: none;
-    opacity: .5;
+    opacity: .6;
     color: #111820;
     background-color: transparent;
     list-style-type: none;
@@ -398,8 +398,8 @@ a:focus {
 .cb-footer {
     padding-top: 1em;
     color: #111820; 
-    box-shadow: 10px 5px 8px 5px rgba(128,128,128, .4);
-    background-color:rgba(219, 217, 214, .25);
+    box-shadow: 4px 4px 4px 4px rgba(128,128,128, .35);
+    background-color:rgba(219, 217, 214, .125);
 }
 
 /* PROJECT STYLES */
@@ -460,8 +460,8 @@ a:focus {
 /* Project Nav */
 
 .p-nav-bar {
-    background-color:rgba(219, 217, 214, 0.25);
-  box-shadow:0px 0px 5px 0px rgba(128,128,128, .4);
+background-color:rgba(219, 217, 214, 0.125);
+  box-shadow:0px 0px 5px 0px rgba(128,128,128, .3);
     height: 70px;  
 
 }
