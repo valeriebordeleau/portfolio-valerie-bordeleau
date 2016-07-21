@@ -1,9 +1,22 @@
-/* Accessibilty */
+
 
 .bio {
-    background-color: #B8CED0;
+    /*background-color: #B8CED0; 
+    background-color: #CFE1E2; */
     padding: 4em 4em;
     color: black;
+}
+
+.bio-underline {
+    height: .2em;
+    margin: 0em 5em 0em 5em;
+    background-color:#C86C61;
+    border-radius: .2em;
+}
+
+.bio-title {
+    color: black;
+    padding-bottom: .5em;
 }
 
 .bkg {
@@ -11,6 +24,8 @@
     height: 20em;
     background-size: 100%; 
 }
+
+/* Accessibilty */
 
 svg:not(:root) {
   overflow: hidden;
@@ -281,7 +296,7 @@ a:focus {
 /* Portfolio Styles */
 
 .portfolio {
-    padding-top: 6em;
+    padding-top: 1.5em;
     color: rgba(8, 38, 44, 1);
     fill:#B8CED0;
 }
@@ -588,6 +603,11 @@ background-color:rgba(219, 217, 214, 0.125);
 }
     
 /*medium*/@media only screen and (min-width: 40em) {        
+ 
+.bio-underline {
+    margin: 0em 2em 0em 2em;
+}    
+    
     
 .p-s-colour{
     background-color: #1b222a;
