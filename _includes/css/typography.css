@@ -15,11 +15,10 @@ text-transform: uppercase;
 }
 
 h3, h4, h5 {
-    color:#6D6E71;
+    color: #2b2b2b;
 }
 
 p {
-color: black;
 opacity: .7;
 font-size: .9rem;
 line-height: 1.6rem;
