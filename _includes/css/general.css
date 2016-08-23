@@ -1,8 +1,6 @@
 
 
 .bio {
-    /*background-color: #B8CED0; 
-    background-color: #CFE1E2; */
     padding: 4em 4em;
     color: white;
     background-color: #071C2C;
@@ -29,6 +27,18 @@ opacity: .75;
 .bio-link:hover,
 .bio-link:active,
 .bio-link:focus {
+    color: #C86C61;
+    text-decoration: underline 2px solid;
+}
+
+.bio-link2 {
+   text-decoration: none;
+   color: black;
+}
+
+.bio-link2:hover,
+.bio-link2:active,
+.bio-link2:focus {
     color: #C86C61;
     text-decoration: underline 2px solid;
 }
