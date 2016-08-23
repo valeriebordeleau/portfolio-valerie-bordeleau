@@ -750,6 +750,13 @@ background-position: 65% bottom;
 }    
  
 }
+
+/*x.5large*/@media only screen and (min-width: 75em){
+    .p-s-colour-pad{
+        padding-top: 8em;
+    }
+    
+}
     
 /*xlarge*/@media only screen and (min-width: 90em) { 
 .island-l {
@@ -765,19 +772,14 @@ background-position: 65% bottom;
 }
 
 
-/*x.5large*/@media only screen and (min-width: 75em){
-    .p-s-colour-pad{
-        padding-top: 8em;
-    }
-    
-}
 
 /*xxlarge*/@media only screen and (min-width: 100em) { 
     .p-overview {
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 40em;
+        height: 50em;
+        background-position: top center;
     }
 }
 
