@@ -778,8 +778,8 @@ background-position: 65% bottom;
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 50em;
-        background-position: top center;
+        height: 45em;
+        background-position: bottom 80%;
     }
 }
 
