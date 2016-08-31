@@ -52,6 +52,21 @@ previous: /internalSurvey
             </div><!--blurb--> 
         </div> <!--unit-->
             
+            <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
+                <div class="embed embed--4by3">
+                    <img src="{{site.baseurl}}/artwork/nova3.jpg" class="main-p-img embed__item" alt="Nova App Visual Design">
+                </div><!-- embed -->
+            </div><!-- unit -->
+            
+             <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-4 p-pad">
+            <div class="p-text-blurb gutter">
+                {% for nova in site.data.nova %}
+                <h4 class="p-sub push-0">High fidelity</h4>
+                <p>{{nova.blurb3}}</p>
+                {% endfor %}
+            </div><!--blurb--> 
+        </div> <!--unit-->
+            
        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3 island">
                 <div class="embed embed--16by9">
                     <iframe src="https://player.vimeo.com/video/177393070" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen class="embed__item"></iframe>
@@ -62,7 +77,7 @@ previous: /internalSurvey
             <div class="p-text-blurb gutter">
                 {% for nova in site.data.nova %}
                 <h4 class="p-sub push-0">Concept Demo</h4>
-                <p>{{nova.blurb3}}</p>
+                <p>{{nova.blurb4}}</p>
                 {% endfor %}
             </div><!--blurb--> 
         </div> <!--unit-->
