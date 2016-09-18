@@ -85,7 +85,7 @@ a:focus {
 }
 
 .banner {
-    height: 20em;
+    height: 22em;
     background-image: url(../artwork/portrait2.png);
     background-size: 80%;
     background-position: 100% bottom;
@@ -639,7 +639,7 @@ a:focus {
 }
     
 .banner {
-height: 18em;
+height: 20em;
 background-size: 50%;
 background-position: 65% bottom;
 }
@@ -647,7 +647,7 @@ background-position: 65% bottom;
     
 .wordmark {
     width: 45%;
-    margin: 2em 0em 0em 0em;
+    margin: 3em 0em 0em 0em;
 }
     
 }
@@ -655,7 +655,7 @@ background-position: 65% bottom;
 /*medium*/@media only screen and (min-width: 40em) {        
   
 .banner2{
-      background-size: 100%;
+      background-size: 110%;
       margin: 0;
       padding: 0;
     background-color: #222222;
@@ -688,7 +688,7 @@ background-position: 65% bottom;
 }    
     
 .banner {
-    height: 24em;
+    height: 26em;
     background-size: 50%;
     background-position:70% bottom;
     }
@@ -696,7 +696,7 @@ background-position: 65% bottom;
     
 .wordmark {
     width: 40%;
-    margin: 3em 0em 0em 0em;
+    margin: 3.75em 0em 0em 0em;
 }  
     
 .only-sm {
@@ -738,8 +738,8 @@ background-position: 65% bottom;
     
 .banner {
     height: 28em;
-    background-size: 40%;
-    background-position:64% bottom;
+    background-size: 35%;
+    background-position:60% bottom;
     }        
     
 .wordmark {
@@ -785,7 +785,7 @@ background-position: 65% bottom;
     padding: 2em 10em 2em 10em;
     }
     .banner {
-        height: 34em;
+        height: 36em;
     }
 }
 
