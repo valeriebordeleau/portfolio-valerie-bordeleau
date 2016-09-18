@@ -76,8 +76,12 @@ a:focus {
 }
 
 /* Banner */ 
+.title {
+ text-transform: uppercase;
+ font-size: 1.2em;
+}
+
 .center-portfolio {
-    
 }
 
 .copyrights {
